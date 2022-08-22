@@ -1,0 +1,92 @@
+2022-08-21 15:20:52,905 ERROR 8985 [-/::1/c0a86504166106645289810008985/7ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'echoUser')
+    at HomeController.index (/Users/suki/egg-demo/app/controller/home.js:8:44)
+    at Object.callFn (/Users/suki/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/suki/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/suki/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/suki/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/suki/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/suki/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/suki/egg-demo/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/suki/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/suki/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 8985
+hostname: QAQ.local
+
+2022-08-21 15:26:38,959 ERROR 9801 [-/::1/c0a86504166106679894810009801/6ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'echoUser')
+    at HomeController.index (/Users/suki/egg-demo/app/controller/home.js:8:44)
+    at Object.callFn (/Users/suki/egg-demo/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/suki/egg-demo/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/suki/egg-demo/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/suki/egg-demo/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/suki/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/suki/egg-demo/node_modules/koa-compose/index.js:45:18)
+    at /Users/suki/egg-demo/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/suki/egg-demo/node_modules/koa-compose/index.js:44:32)
+    at /Users/suki/egg-demo/node_modules/koa-compose/index.js:36:12
+
+pid: 9801
+hostname: QAQ.local
+
+2022-08-21 15:53:00,851 ERROR 10715 [-/::1/c0a865041661068375502100010715/5348ms GET /] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:1002:15)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ResponseTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5339,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"34.120.160.131","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":0}
+pid: 10715
+hostname: QAQ.local
+
+2022-08-21 15:53:14,653 ERROR 10715 [-/::1/c0a865041661068389648100210715/5004ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:988:15)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"34.120.160.131","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 10715
+hostname: QAQ.local
+
+2022-08-21 23:47:22,212 ERROR 14761 [-/::1/c0a865041661096841810100014761/402ms GET /] nodejs.ReferenceError: list is not defined
+    at HomeController.list (/Users/suki/egg-demo/app/controller/home.js:10:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/suki/egg-demo/node_modules/koa-static-cache/index.js:41:56
+
+pid: 14761
+hostname: QAQ.local
+
+2022-08-21 23:47:41,734 ERROR 14761 [-/::1/c0a865041661096861502100214761/232ms GET /] nodejs.ReferenceError: list is not defined
+    at HomeController.list (/Users/suki/egg-demo/app/controller/home.js:10:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/suki/egg-demo/node_modules/koa-static-cache/index.js:41:56
+
+pid: 14761
+hostname: QAQ.local
+

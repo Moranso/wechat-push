@@ -1,0 +1,1678 @@
+2022-08-22 00:00:01,048 INFO 14989 [egg-logrotator] app logger reload: got log-reload message
+2022-08-22 00:06:56,873 INFO 14989 [egg-rpc] rpc server is closed
+2022-08-22 00:07:21,399 INFO 15089 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:07:21,425 INFO 15089 [egg-multipart] stream mode enable
+2022-08-22 00:07:21,539 INFO 15089 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:07:21,541 INFO 15089 [egg-security] use csrf middleware
+2022-08-22 00:07:21,542 INFO 15089 [egg-security] use methodnoallow middleware
+2022-08-22 00:07:21,543 INFO 15089 [egg-security] use noopen middleware
+2022-08-22 00:07:21,543 INFO 15089 [egg-security] use nosniff middleware
+2022-08-22 00:07:21,544 INFO 15089 [egg-security] use xssProtection middleware
+2022-08-22 00:07:21,545 INFO 15089 [egg-security] use xframe middleware
+2022-08-22 00:07:21,545 INFO 15089 [egg-security] use dta middleware
+2022-08-22 00:07:21,545 INFO 15089 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:07:21,555 INFO 15089 [egg:core] dump config after load, 5ms
+2022-08-22 00:07:21,565 INFO 15089 [egg-watcher:application] watcher start success
+2022-08-22 00:07:21,565 INFO 15089 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:07:21,571 INFO 15089 [egg:core] dump config after ready, 4ms
+2022-08-22 00:07:28,519 INFO 15089 [egg-rpc] rpc server is closed
+2022-08-22 00:07:35,909 INFO 15102 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:07:35,927 INFO 15102 [egg-multipart] stream mode enable
+2022-08-22 00:07:36,070 INFO 15102 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:07:36,073 INFO 15102 [egg-security] use csrf middleware
+2022-08-22 00:07:36,074 INFO 15102 [egg-security] use methodnoallow middleware
+2022-08-22 00:07:36,075 INFO 15102 [egg-security] use noopen middleware
+2022-08-22 00:07:36,076 INFO 15102 [egg-security] use nosniff middleware
+2022-08-22 00:07:36,077 INFO 15102 [egg-security] use xssProtection middleware
+2022-08-22 00:07:36,078 INFO 15102 [egg-security] use xframe middleware
+2022-08-22 00:07:36,079 INFO 15102 [egg-security] use dta middleware
+2022-08-22 00:07:36,079 INFO 15102 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:07:36,088 INFO 15102 [egg:core] dump config after load, 4ms
+2022-08-22 00:07:36,097 INFO 15102 [egg-watcher:application] watcher start success
+2022-08-22 00:07:36,098 INFO 15102 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:07:36,103 INFO 15102 [egg:core] dump config after ready, 4ms
+2022-08-22 00:07:43,859 INFO 15102 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:07:58,238 INFO 15102 [egg-rpc] rpc server is closed
+2022-08-22 00:07:57,948 INFO 15110 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:07:57,976 INFO 15110 [egg-multipart] stream mode enable
+2022-08-22 00:07:58,098 INFO 15110 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:07:58,100 INFO 15110 [egg-security] use csrf middleware
+2022-08-22 00:07:58,102 INFO 15110 [egg-security] use methodnoallow middleware
+2022-08-22 00:07:58,103 INFO 15110 [egg-security] use noopen middleware
+2022-08-22 00:07:58,104 INFO 15110 [egg-security] use nosniff middleware
+2022-08-22 00:07:58,105 INFO 15110 [egg-security] use xssProtection middleware
+2022-08-22 00:07:58,105 INFO 15110 [egg-security] use xframe middleware
+2022-08-22 00:07:58,106 INFO 15110 [egg-security] use dta middleware
+2022-08-22 00:07:58,106 INFO 15110 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:07:58,116 INFO 15110 [egg:core] dump config after load, 5ms
+2022-08-22 00:07:58,128 INFO 15110 [egg-watcher:application] watcher start success
+2022-08-22 00:07:58,128 INFO 15110 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:07:58,135 INFO 15110 [egg:core] dump config after ready, 5ms
+2022-08-22 00:08:14,811 INFO 15110 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:08:31,316 INFO 15124 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:08:31,337 INFO 15124 [egg-multipart] stream mode enable
+2022-08-22 00:08:31,474 INFO 15124 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:08:31,476 INFO 15124 [egg-security] use csrf middleware
+2022-08-22 00:08:31,477 INFO 15124 [egg-security] use methodnoallow middleware
+2022-08-22 00:08:31,479 INFO 15124 [egg-security] use noopen middleware
+2022-08-22 00:08:31,480 INFO 15124 [egg-security] use nosniff middleware
+2022-08-22 00:08:31,481 INFO 15124 [egg-security] use xssProtection middleware
+2022-08-22 00:08:31,482 INFO 15124 [egg-security] use xframe middleware
+2022-08-22 00:08:31,484 INFO 15124 [egg-security] use dta middleware
+2022-08-22 00:08:31,484 INFO 15124 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:08:31,493 INFO 15124 [egg:core] dump config after load, 4ms
+2022-08-22 00:08:31,505 INFO 15124 [egg-watcher:application] watcher start success
+2022-08-22 00:08:31,506 INFO 15124 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:08:31,511 INFO 15124 [egg:core] dump config after ready, 4ms
+2022-08-22 00:08:37,064 INFO 15124 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:10:06,611 INFO 15124 [egg-rpc] rpc server is closed
+2022-08-22 00:10:06,360 INFO 15140 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:10:06,387 INFO 15140 [egg-multipart] stream mode enable
+2022-08-22 00:10:06,477 INFO 15140 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:10:06,479 INFO 15140 [egg-security] use csrf middleware
+2022-08-22 00:10:06,479 INFO 15140 [egg-security] use methodnoallow middleware
+2022-08-22 00:10:06,480 INFO 15140 [egg-security] use noopen middleware
+2022-08-22 00:10:06,481 INFO 15140 [egg-security] use nosniff middleware
+2022-08-22 00:10:06,482 INFO 15140 [egg-security] use xssProtection middleware
+2022-08-22 00:10:06,483 INFO 15140 [egg-security] use xframe middleware
+2022-08-22 00:10:06,483 INFO 15140 [egg-security] use dta middleware
+2022-08-22 00:10:06,483 INFO 15140 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:10:06,491 INFO 15140 [egg:core] dump config after load, 4ms
+2022-08-22 00:10:06,500 INFO 15140 [egg-watcher:application] watcher start success
+2022-08-22 00:10:06,500 INFO 15140 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:10:06,505 INFO 15140 [egg:core] dump config after ready, 4ms
+2022-08-22 00:10:09,124 INFO 15140 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:10:18,081 INFO 15140 [egg-rpc] rpc server is closed
+2022-08-22 00:10:17,808 INFO 15148 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:10:17,834 INFO 15148 [egg-multipart] stream mode enable
+2022-08-22 00:10:17,945 INFO 15148 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:10:17,948 INFO 15148 [egg-security] use csrf middleware
+2022-08-22 00:10:17,949 INFO 15148 [egg-security] use methodnoallow middleware
+2022-08-22 00:10:17,950 INFO 15148 [egg-security] use noopen middleware
+2022-08-22 00:10:17,951 INFO 15148 [egg-security] use nosniff middleware
+2022-08-22 00:10:17,952 INFO 15148 [egg-security] use xssProtection middleware
+2022-08-22 00:10:17,953 INFO 15148 [egg-security] use xframe middleware
+2022-08-22 00:10:17,954 INFO 15148 [egg-security] use dta middleware
+2022-08-22 00:10:17,954 INFO 15148 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:10:17,963 INFO 15148 [egg:core] dump config after load, 5ms
+2022-08-22 00:10:17,973 INFO 15148 [egg-watcher:application] watcher start success
+2022-08-22 00:10:17,973 INFO 15148 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:10:17,979 INFO 15148 [egg:core] dump config after ready, 5ms
+2022-08-22 00:11:05,522 INFO 15148 [egg-rpc] rpc server is closed
+2022-08-22 00:11:05,348 INFO 15159 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:11:05,376 INFO 15159 [egg-multipart] stream mode enable
+2022-08-22 00:11:05,487 INFO 15159 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:11:05,489 INFO 15159 [egg-security] use csrf middleware
+2022-08-22 00:11:05,490 INFO 15159 [egg-security] use methodnoallow middleware
+2022-08-22 00:11:05,491 INFO 15159 [egg-security] use noopen middleware
+2022-08-22 00:11:05,492 INFO 15159 [egg-security] use nosniff middleware
+2022-08-22 00:11:05,493 INFO 15159 [egg-security] use xssProtection middleware
+2022-08-22 00:11:05,494 INFO 15159 [egg-security] use xframe middleware
+2022-08-22 00:11:05,495 INFO 15159 [egg-security] use dta middleware
+2022-08-22 00:11:05,495 INFO 15159 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:11:05,504 INFO 15159 [egg:core] dump config after load, 4ms
+2022-08-22 00:11:05,513 INFO 15159 [egg-watcher:application] watcher start success
+2022-08-22 00:11:05,514 INFO 15159 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:11:05,520 INFO 15159 [egg:core] dump config after ready, 5ms
+2022-08-22 00:11:07,611 INFO 15159 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:11:30,433 INFO 15159 [egg-rpc] rpc server is closed
+2022-08-22 00:11:30,172 INFO 15171 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:11:30,197 INFO 15171 [egg-multipart] stream mode enable
+2022-08-22 00:11:30,297 INFO 15171 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:11:30,300 INFO 15171 [egg-security] use csrf middleware
+2022-08-22 00:11:30,301 INFO 15171 [egg-security] use methodnoallow middleware
+2022-08-22 00:11:30,302 INFO 15171 [egg-security] use noopen middleware
+2022-08-22 00:11:30,303 INFO 15171 [egg-security] use nosniff middleware
+2022-08-22 00:11:30,303 INFO 15171 [egg-security] use xssProtection middleware
+2022-08-22 00:11:30,304 INFO 15171 [egg-security] use xframe middleware
+2022-08-22 00:11:30,305 INFO 15171 [egg-security] use dta middleware
+2022-08-22 00:11:30,305 INFO 15171 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:11:30,313 INFO 15171 [egg:core] dump config after load, 4ms
+2022-08-22 00:11:30,323 INFO 15171 [egg-watcher:application] watcher start success
+2022-08-22 00:11:30,324 INFO 15171 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:11:30,330 INFO 15171 [egg:core] dump config after ready, 4ms
+2022-08-22 00:11:30,947 INFO 15171 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:12:36,088 INFO 15171 [egg-rpc] rpc server is closed
+2022-08-22 00:12:35,934 INFO 15186 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:12:35,959 INFO 15186 [egg-multipart] stream mode enable
+2022-08-22 00:12:36,055 INFO 15186 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:12:36,057 INFO 15186 [egg-security] use csrf middleware
+2022-08-22 00:12:36,058 INFO 15186 [egg-security] use methodnoallow middleware
+2022-08-22 00:12:36,059 INFO 15186 [egg-security] use noopen middleware
+2022-08-22 00:12:36,060 INFO 15186 [egg-security] use nosniff middleware
+2022-08-22 00:12:36,061 INFO 15186 [egg-security] use xssProtection middleware
+2022-08-22 00:12:36,062 INFO 15186 [egg-security] use xframe middleware
+2022-08-22 00:12:36,062 INFO 15186 [egg-security] use dta middleware
+2022-08-22 00:12:36,062 INFO 15186 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:12:36,070 INFO 15186 [egg:core] dump config after load, 4ms
+2022-08-22 00:12:36,079 INFO 15186 [egg-watcher:application] watcher start success
+2022-08-22 00:12:36,080 INFO 15186 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:12:36,086 INFO 15186 [egg:core] dump config after ready, 4ms
+2022-08-22 00:12:38,212 INFO 15186 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:13:07,266 INFO 15186 [egg-rpc] rpc server is closed
+2022-08-22 00:13:07,027 INFO 15200 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:13:07,050 INFO 15200 [egg-multipart] stream mode enable
+2022-08-22 00:13:07,134 INFO 15200 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:13:07,136 INFO 15200 [egg-security] use csrf middleware
+2022-08-22 00:13:07,136 INFO 15200 [egg-security] use methodnoallow middleware
+2022-08-22 00:13:07,137 INFO 15200 [egg-security] use noopen middleware
+2022-08-22 00:13:07,138 INFO 15200 [egg-security] use nosniff middleware
+2022-08-22 00:13:07,139 INFO 15200 [egg-security] use xssProtection middleware
+2022-08-22 00:13:07,139 INFO 15200 [egg-security] use xframe middleware
+2022-08-22 00:13:07,140 INFO 15200 [egg-security] use dta middleware
+2022-08-22 00:13:07,140 INFO 15200 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:13:07,148 INFO 15200 [egg:core] dump config after load, 5ms
+2022-08-22 00:13:07,158 INFO 15200 [egg-watcher:application] watcher start success
+2022-08-22 00:13:07,158 INFO 15200 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:13:07,164 INFO 15200 [egg:core] dump config after ready, 5ms
+2022-08-22 00:13:07,676 INFO 15200 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:13:51,210 INFO 15200 [egg-rpc] rpc server is closed
+2022-08-22 00:13:51,042 INFO 15213 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:13:51,067 INFO 15213 [egg-multipart] stream mode enable
+2022-08-22 00:13:51,175 INFO 15213 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:13:51,177 INFO 15213 [egg-security] use csrf middleware
+2022-08-22 00:13:51,178 INFO 15213 [egg-security] use methodnoallow middleware
+2022-08-22 00:13:51,178 INFO 15213 [egg-security] use noopen middleware
+2022-08-22 00:13:51,179 INFO 15213 [egg-security] use nosniff middleware
+2022-08-22 00:13:51,180 INFO 15213 [egg-security] use xssProtection middleware
+2022-08-22 00:13:51,181 INFO 15213 [egg-security] use xframe middleware
+2022-08-22 00:13:51,182 INFO 15213 [egg-security] use dta middleware
+2022-08-22 00:13:51,182 INFO 15213 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:13:51,192 INFO 15213 [egg:core] dump config after load, 4ms
+2022-08-22 00:13:51,201 INFO 15213 [egg-watcher:application] watcher start success
+2022-08-22 00:13:51,202 INFO 15213 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:13:51,208 INFO 15213 [egg:core] dump config after ready, 5ms
+2022-08-22 00:13:52,889 INFO 15213 [egg-rpc] rpc server is closed
+2022-08-22 00:13:52,788 INFO 15221 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:13:52,807 INFO 15221 [egg-multipart] stream mode enable
+2022-08-22 00:13:52,861 INFO 15221 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:13:52,862 INFO 15221 [egg-security] use csrf middleware
+2022-08-22 00:13:52,863 INFO 15221 [egg-security] use methodnoallow middleware
+2022-08-22 00:13:52,863 INFO 15221 [egg-security] use noopen middleware
+2022-08-22 00:13:52,864 INFO 15221 [egg-security] use nosniff middleware
+2022-08-22 00:13:52,864 INFO 15221 [egg-security] use xssProtection middleware
+2022-08-22 00:13:52,864 INFO 15221 [egg-security] use xframe middleware
+2022-08-22 00:13:52,864 INFO 15221 [egg-security] use dta middleware
+2022-08-22 00:13:52,864 INFO 15221 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:13:52,871 INFO 15221 [egg:core] dump config after load, 4ms
+2022-08-22 00:13:52,880 INFO 15221 [egg-watcher:application] watcher start success
+2022-08-22 00:13:52,881 INFO 15221 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:13:52,886 INFO 15221 [egg:core] dump config after ready, 4ms
+2022-08-22 00:13:53,905 INFO 15221 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:16:28,667 INFO 15221 [egg-rpc] rpc server is closed
+2022-08-22 00:16:28,380 INFO 15256 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:16:28,411 INFO 15256 [egg-multipart] stream mode enable
+2022-08-22 00:16:28,529 INFO 15256 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:16:28,531 INFO 15256 [egg-security] use csrf middleware
+2022-08-22 00:16:28,532 INFO 15256 [egg-security] use methodnoallow middleware
+2022-08-22 00:16:28,533 INFO 15256 [egg-security] use noopen middleware
+2022-08-22 00:16:28,534 INFO 15256 [egg-security] use nosniff middleware
+2022-08-22 00:16:28,535 INFO 15256 [egg-security] use xssProtection middleware
+2022-08-22 00:16:28,536 INFO 15256 [egg-security] use xframe middleware
+2022-08-22 00:16:28,537 INFO 15256 [egg-security] use dta middleware
+2022-08-22 00:16:28,537 INFO 15256 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:16:28,546 INFO 15256 [egg:core] dump config after load, 5ms
+2022-08-22 00:16:28,556 INFO 15256 [egg-watcher:application] watcher start success
+2022-08-22 00:16:28,557 INFO 15256 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:16:28,563 INFO 15256 [egg:core] dump config after ready, 5ms
+2022-08-22 00:16:29,011 INFO 15256 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:18:13,861 INFO 15256 [egg-rpc] rpc server is closed
+2022-08-22 00:18:13,701 INFO 15276 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:18:13,724 INFO 15276 [egg-multipart] stream mode enable
+2022-08-22 00:18:13,824 INFO 15276 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:18:13,827 INFO 15276 [egg-security] use csrf middleware
+2022-08-22 00:18:13,828 INFO 15276 [egg-security] use methodnoallow middleware
+2022-08-22 00:18:13,829 INFO 15276 [egg-security] use noopen middleware
+2022-08-22 00:18:13,830 INFO 15276 [egg-security] use nosniff middleware
+2022-08-22 00:18:13,831 INFO 15276 [egg-security] use xssProtection middleware
+2022-08-22 00:18:13,832 INFO 15276 [egg-security] use xframe middleware
+2022-08-22 00:18:13,833 INFO 15276 [egg-security] use dta middleware
+2022-08-22 00:18:13,833 INFO 15276 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:18:13,841 INFO 15276 [egg:core] dump config after load, 4ms
+2022-08-22 00:18:13,851 INFO 15276 [egg-watcher:application] watcher start success
+2022-08-22 00:18:13,852 INFO 15276 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:18:13,857 INFO 15276 [egg:core] dump config after ready, 4ms
+2022-08-22 00:18:15,620 INFO 15276 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:21:56,906 INFO 15276 [egg-rpc] rpc server is closed
+2022-08-22 00:21:56,584 INFO 15314 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:21:56,623 INFO 15314 [egg-multipart] stream mode enable
+2022-08-22 00:21:56,766 INFO 15314 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:21:56,768 INFO 15314 [egg-security] use csrf middleware
+2022-08-22 00:21:56,769 INFO 15314 [egg-security] use methodnoallow middleware
+2022-08-22 00:21:56,770 INFO 15314 [egg-security] use noopen middleware
+2022-08-22 00:21:56,771 INFO 15314 [egg-security] use nosniff middleware
+2022-08-22 00:21:56,772 INFO 15314 [egg-security] use xssProtection middleware
+2022-08-22 00:21:56,773 INFO 15314 [egg-security] use xframe middleware
+2022-08-22 00:21:56,774 INFO 15314 [egg-security] use dta middleware
+2022-08-22 00:21:56,774 INFO 15314 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:21:56,787 INFO 15314 [egg:core] dump config after load, 7ms
+2022-08-22 00:21:56,796 INFO 15314 [egg-watcher:application] watcher start success
+2022-08-22 00:21:56,797 INFO 15314 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:21:56,802 INFO 15314 [egg:core] dump config after ready, 4ms
+2022-08-22 00:21:58,872 INFO 15314 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:22:14,010 INFO 15314 [egg-rpc] rpc server is closed
+2022-08-22 00:22:13,769 INFO 15324 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:22:13,793 INFO 15324 [egg-multipart] stream mode enable
+2022-08-22 00:22:13,878 INFO 15324 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:22:13,880 INFO 15324 [egg-security] use csrf middleware
+2022-08-22 00:22:13,881 INFO 15324 [egg-security] use methodnoallow middleware
+2022-08-22 00:22:13,881 INFO 15324 [egg-security] use noopen middleware
+2022-08-22 00:22:13,882 INFO 15324 [egg-security] use nosniff middleware
+2022-08-22 00:22:13,882 INFO 15324 [egg-security] use xssProtection middleware
+2022-08-22 00:22:13,883 INFO 15324 [egg-security] use xframe middleware
+2022-08-22 00:22:13,884 INFO 15324 [egg-security] use dta middleware
+2022-08-22 00:22:13,884 INFO 15324 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:22:13,891 INFO 15324 [egg:core] dump config after load, 4ms
+2022-08-22 00:22:13,899 INFO 15324 [egg-watcher:application] watcher start success
+2022-08-22 00:22:13,900 INFO 15324 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:22:13,905 INFO 15324 [egg:core] dump config after ready, 4ms
+2022-08-22 00:22:14,417 INFO 15324 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:22:31,318 INFO 15324 [egg-rpc] rpc server is closed
+2022-08-22 00:22:34,808 INFO 15343 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:22:34,833 INFO 15343 [egg-multipart] stream mode enable
+2022-08-22 00:22:34,955 INFO 15343 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:22:34,957 INFO 15343 [egg-security] use csrf middleware
+2022-08-22 00:22:34,958 INFO 15343 [egg-security] use methodnoallow middleware
+2022-08-22 00:22:34,959 INFO 15343 [egg-security] use noopen middleware
+2022-08-22 00:22:34,959 INFO 15343 [egg-security] use nosniff middleware
+2022-08-22 00:22:34,960 INFO 15343 [egg-security] use xssProtection middleware
+2022-08-22 00:22:34,961 INFO 15343 [egg-security] use xframe middleware
+2022-08-22 00:22:34,962 INFO 15343 [egg-security] use dta middleware
+2022-08-22 00:22:34,962 INFO 15343 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:22:34,970 INFO 15343 [egg:core] dump config after load, 5ms
+2022-08-22 00:22:34,979 INFO 15343 [egg-watcher:application] watcher start success
+2022-08-22 00:22:34,980 INFO 15343 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:22:34,985 INFO 15343 [egg:core] dump config after ready, 4ms
+2022-08-22 00:23:11,857 INFO 15343 [egg-rpc] rpc server is closed
+2022-08-22 00:23:11,696 INFO 15352 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:23:11,723 INFO 15352 [egg-multipart] stream mode enable
+2022-08-22 00:23:11,821 INFO 15352 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:23:11,824 INFO 15352 [egg-security] use csrf middleware
+2022-08-22 00:23:11,825 INFO 15352 [egg-security] use methodnoallow middleware
+2022-08-22 00:23:11,826 INFO 15352 [egg-security] use noopen middleware
+2022-08-22 00:23:11,827 INFO 15352 [egg-security] use nosniff middleware
+2022-08-22 00:23:11,827 INFO 15352 [egg-security] use xssProtection middleware
+2022-08-22 00:23:11,829 INFO 15352 [egg-security] use xframe middleware
+2022-08-22 00:23:11,829 INFO 15352 [egg-security] use dta middleware
+2022-08-22 00:23:11,829 INFO 15352 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:23:11,839 INFO 15352 [egg:core] dump config after load, 5ms
+2022-08-22 00:23:11,848 INFO 15352 [egg-watcher:application] watcher start success
+2022-08-22 00:23:11,849 INFO 15352 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:23:11,854 INFO 15352 [egg:core] dump config after ready, 4ms
+2022-08-22 00:23:13,577 INFO 15352 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:24:40,198 INFO 15352 [egg-rpc] rpc server is closed
+2022-08-22 00:24:39,940 INFO 15370 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:24:39,966 INFO 15370 [egg-multipart] stream mode enable
+2022-08-22 00:24:40,060 INFO 15370 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:24:40,062 INFO 15370 [egg-security] use csrf middleware
+2022-08-22 00:24:40,063 INFO 15370 [egg-security] use methodnoallow middleware
+2022-08-22 00:24:40,064 INFO 15370 [egg-security] use noopen middleware
+2022-08-22 00:24:40,065 INFO 15370 [egg-security] use nosniff middleware
+2022-08-22 00:24:40,066 INFO 15370 [egg-security] use xssProtection middleware
+2022-08-22 00:24:40,067 INFO 15370 [egg-security] use xframe middleware
+2022-08-22 00:24:40,067 INFO 15370 [egg-security] use dta middleware
+2022-08-22 00:24:40,067 INFO 15370 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:24:40,077 INFO 15370 [egg:core] dump config after load, 5ms
+2022-08-22 00:24:40,087 INFO 15370 [egg-watcher:application] watcher start success
+2022-08-22 00:24:40,088 INFO 15370 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:24:40,093 INFO 15370 [egg:core] dump config after ready, 4ms
+2022-08-22 00:24:50,772 INFO 15370 [egg-rpc] rpc server is closed
+2022-08-22 00:24:50,661 INFO 15382 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:24:50,687 INFO 15382 [egg-multipart] stream mode enable
+2022-08-22 00:24:50,744 INFO 15382 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:24:50,746 INFO 15382 [egg-security] use csrf middleware
+2022-08-22 00:24:50,746 INFO 15382 [egg-security] use methodnoallow middleware
+2022-08-22 00:24:50,747 INFO 15382 [egg-security] use noopen middleware
+2022-08-22 00:24:50,748 INFO 15382 [egg-security] use nosniff middleware
+2022-08-22 00:24:50,748 INFO 15382 [egg-security] use xssProtection middleware
+2022-08-22 00:24:50,748 INFO 15382 [egg-security] use xframe middleware
+2022-08-22 00:24:50,749 INFO 15382 [egg-security] use dta middleware
+2022-08-22 00:24:50,749 INFO 15382 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:24:50,755 INFO 15382 [egg:core] dump config after load, 4ms
+2022-08-22 00:24:50,764 INFO 15382 [egg-watcher:application] watcher start success
+2022-08-22 00:24:50,764 INFO 15382 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:24:50,770 INFO 15382 [egg:core] dump config after ready, 4ms
+2022-08-22 00:24:52,303 INFO 15382 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:27:20,424 INFO 15382 [egg-rpc] rpc server is closed
+2022-08-22 00:27:20,169 INFO 15415 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:27:20,194 INFO 15415 [egg-multipart] stream mode enable
+2022-08-22 00:27:20,290 INFO 15415 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:27:20,292 INFO 15415 [egg-security] use csrf middleware
+2022-08-22 00:27:20,292 INFO 15415 [egg-security] use methodnoallow middleware
+2022-08-22 00:27:20,293 INFO 15415 [egg-security] use noopen middleware
+2022-08-22 00:27:20,294 INFO 15415 [egg-security] use nosniff middleware
+2022-08-22 00:27:20,294 INFO 15415 [egg-security] use xssProtection middleware
+2022-08-22 00:27:20,295 INFO 15415 [egg-security] use xframe middleware
+2022-08-22 00:27:20,296 INFO 15415 [egg-security] use dta middleware
+2022-08-22 00:27:20,296 INFO 15415 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:27:20,304 INFO 15415 [egg:core] dump config after load, 4ms
+2022-08-22 00:27:20,312 INFO 15415 [egg-watcher:application] watcher start success
+2022-08-22 00:27:20,313 INFO 15415 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:27:20,319 INFO 15415 [egg:core] dump config after ready, 5ms
+2022-08-22 00:27:48,050 INFO 15415 [egg-rpc] rpc server is closed
+2022-08-22 00:27:47,953 INFO 15436 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:27:47,972 INFO 15436 [egg-multipart] stream mode enable
+2022-08-22 00:27:48,022 INFO 15436 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:27:48,024 INFO 15436 [egg-security] use csrf middleware
+2022-08-22 00:27:48,024 INFO 15436 [egg-security] use methodnoallow middleware
+2022-08-22 00:27:48,025 INFO 15436 [egg-security] use noopen middleware
+2022-08-22 00:27:48,025 INFO 15436 [egg-security] use nosniff middleware
+2022-08-22 00:27:48,025 INFO 15436 [egg-security] use xssProtection middleware
+2022-08-22 00:27:48,025 INFO 15436 [egg-security] use xframe middleware
+2022-08-22 00:27:48,026 INFO 15436 [egg-security] use dta middleware
+2022-08-22 00:27:48,026 INFO 15436 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:27:48,032 INFO 15436 [egg:core] dump config after load, 4ms
+2022-08-22 00:27:48,041 INFO 15436 [egg-watcher:application] watcher start success
+2022-08-22 00:27:48,041 INFO 15436 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:27:48,047 INFO 15436 [egg:core] dump config after ready, 4ms
+2022-08-22 00:28:15,238 INFO 15436 [egg-rpc] rpc server is closed
+2022-08-22 00:28:15,141 INFO 15443 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:28:15,163 INFO 15443 [egg-multipart] stream mode enable
+2022-08-22 00:28:15,213 INFO 15443 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:28:15,214 INFO 15443 [egg-security] use csrf middleware
+2022-08-22 00:28:15,214 INFO 15443 [egg-security] use methodnoallow middleware
+2022-08-22 00:28:15,215 INFO 15443 [egg-security] use noopen middleware
+2022-08-22 00:28:15,215 INFO 15443 [egg-security] use nosniff middleware
+2022-08-22 00:28:15,215 INFO 15443 [egg-security] use xssProtection middleware
+2022-08-22 00:28:15,215 INFO 15443 [egg-security] use xframe middleware
+2022-08-22 00:28:15,216 INFO 15443 [egg-security] use dta middleware
+2022-08-22 00:28:15,216 INFO 15443 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:28:15,222 INFO 15443 [egg:core] dump config after load, 4ms
+2022-08-22 00:28:15,230 INFO 15443 [egg-watcher:application] watcher start success
+2022-08-22 00:28:15,231 INFO 15443 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:28:15,236 INFO 15443 [egg:core] dump config after ready, 4ms
+2022-08-22 00:28:27,899 INFO 15443 [egg-rpc] rpc server is closed
+2022-08-22 00:28:27,798 INFO 15451 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:28:27,818 INFO 15451 [egg-multipart] stream mode enable
+2022-08-22 00:28:27,872 INFO 15451 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:28:27,873 INFO 15451 [egg-security] use csrf middleware
+2022-08-22 00:28:27,873 INFO 15451 [egg-security] use methodnoallow middleware
+2022-08-22 00:28:27,874 INFO 15451 [egg-security] use noopen middleware
+2022-08-22 00:28:27,874 INFO 15451 [egg-security] use nosniff middleware
+2022-08-22 00:28:27,874 INFO 15451 [egg-security] use xssProtection middleware
+2022-08-22 00:28:27,875 INFO 15451 [egg-security] use xframe middleware
+2022-08-22 00:28:27,875 INFO 15451 [egg-security] use dta middleware
+2022-08-22 00:28:27,875 INFO 15451 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:28:27,881 INFO 15451 [egg:core] dump config after load, 4ms
+2022-08-22 00:28:27,890 INFO 15451 [egg-watcher:application] watcher start success
+2022-08-22 00:28:27,891 INFO 15451 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:28:27,896 INFO 15451 [egg:core] dump config after ready, 4ms
+2022-08-22 00:28:43,085 INFO 15451 [egg-rpc] rpc server is closed
+2022-08-22 00:28:42,902 INFO 15455 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:28:42,931 INFO 15455 [egg-multipart] stream mode enable
+2022-08-22 00:28:43,047 INFO 15455 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:28:43,050 INFO 15455 [egg-security] use csrf middleware
+2022-08-22 00:28:43,051 INFO 15455 [egg-security] use methodnoallow middleware
+2022-08-22 00:28:43,052 INFO 15455 [egg-security] use noopen middleware
+2022-08-22 00:28:43,053 INFO 15455 [egg-security] use nosniff middleware
+2022-08-22 00:28:43,054 INFO 15455 [egg-security] use xssProtection middleware
+2022-08-22 00:28:43,055 INFO 15455 [egg-security] use xframe middleware
+2022-08-22 00:28:43,056 INFO 15455 [egg-security] use dta middleware
+2022-08-22 00:28:43,056 INFO 15455 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:28:43,067 INFO 15455 [egg:core] dump config after load, 6ms
+2022-08-22 00:28:43,076 INFO 15455 [egg-watcher:application] watcher start success
+2022-08-22 00:28:43,077 INFO 15455 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:28:43,083 INFO 15455 [egg:core] dump config after ready, 5ms
+2022-08-22 00:29:33,359 INFO 15455 [egg-rpc] rpc server is closed
+2022-08-22 00:29:33,261 INFO 15480 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:29:33,282 INFO 15480 [egg-multipart] stream mode enable
+2022-08-22 00:29:33,334 INFO 15480 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:29:33,335 INFO 15480 [egg-security] use csrf middleware
+2022-08-22 00:29:33,335 INFO 15480 [egg-security] use methodnoallow middleware
+2022-08-22 00:29:33,336 INFO 15480 [egg-security] use noopen middleware
+2022-08-22 00:29:33,336 INFO 15480 [egg-security] use nosniff middleware
+2022-08-22 00:29:33,336 INFO 15480 [egg-security] use xssProtection middleware
+2022-08-22 00:29:33,337 INFO 15480 [egg-security] use xframe middleware
+2022-08-22 00:29:33,337 INFO 15480 [egg-security] use dta middleware
+2022-08-22 00:29:33,337 INFO 15480 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:29:33,343 INFO 15480 [egg:core] dump config after load, 4ms
+2022-08-22 00:29:33,351 INFO 15480 [egg-watcher:application] watcher start success
+2022-08-22 00:29:33,352 INFO 15480 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:29:33,357 INFO 15480 [egg:core] dump config after ready, 4ms
+2022-08-22 00:29:45,427 INFO 15480 [egg-rpc] rpc server is closed
+2022-08-22 00:29:45,216 INFO 15493 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:29:45,246 INFO 15493 [egg-multipart] stream mode enable
+2022-08-22 00:29:45,395 INFO 15493 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:29:45,397 INFO 15493 [egg-security] use csrf middleware
+2022-08-22 00:29:45,398 INFO 15493 [egg-security] use methodnoallow middleware
+2022-08-22 00:29:45,399 INFO 15493 [egg-security] use noopen middleware
+2022-08-22 00:29:45,400 INFO 15493 [egg-security] use nosniff middleware
+2022-08-22 00:29:45,401 INFO 15493 [egg-security] use xssProtection middleware
+2022-08-22 00:29:45,401 INFO 15493 [egg-security] use xframe middleware
+2022-08-22 00:29:45,402 INFO 15493 [egg-security] use dta middleware
+2022-08-22 00:29:45,402 INFO 15493 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:29:45,410 INFO 15493 [egg:core] dump config after load, 4ms
+2022-08-22 00:29:45,419 INFO 15493 [egg-watcher:application] watcher start success
+2022-08-22 00:29:45,419 INFO 15493 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:29:45,424 INFO 15493 [egg:core] dump config after ready, 4ms
+2022-08-22 00:29:47,529 INFO 15493 [egg-rpc] rpc server is closed
+2022-08-22 00:29:47,434 INFO 15497 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:29:47,454 INFO 15497 [egg-multipart] stream mode enable
+2022-08-22 00:29:47,503 INFO 15497 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:29:47,504 INFO 15497 [egg-security] use csrf middleware
+2022-08-22 00:29:47,505 INFO 15497 [egg-security] use methodnoallow middleware
+2022-08-22 00:29:47,505 INFO 15497 [egg-security] use noopen middleware
+2022-08-22 00:29:47,505 INFO 15497 [egg-security] use nosniff middleware
+2022-08-22 00:29:47,505 INFO 15497 [egg-security] use xssProtection middleware
+2022-08-22 00:29:47,506 INFO 15497 [egg-security] use xframe middleware
+2022-08-22 00:29:47,506 INFO 15497 [egg-security] use dta middleware
+2022-08-22 00:29:47,506 INFO 15497 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:29:47,512 INFO 15497 [egg:core] dump config after load, 4ms
+2022-08-22 00:29:47,521 INFO 15497 [egg-watcher:application] watcher start success
+2022-08-22 00:29:47,521 INFO 15497 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:29:47,526 INFO 15497 [egg:core] dump config after ready, 4ms
+2022-08-22 00:30:09,954 INFO 15497 [egg-rpc] rpc server is closed
+2022-08-22 00:30:17,501 INFO 15516 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:30:17,520 INFO 15516 [egg-multipart] stream mode enable
+2022-08-22 00:30:17,568 INFO 15516 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:30:17,570 INFO 15516 [egg-security] use csrf middleware
+2022-08-22 00:30:17,570 INFO 15516 [egg-security] use methodnoallow middleware
+2022-08-22 00:30:17,570 INFO 15516 [egg-security] use noopen middleware
+2022-08-22 00:30:17,571 INFO 15516 [egg-security] use nosniff middleware
+2022-08-22 00:30:17,571 INFO 15516 [egg-security] use xssProtection middleware
+2022-08-22 00:30:17,571 INFO 15516 [egg-security] use xframe middleware
+2022-08-22 00:30:17,571 INFO 15516 [egg-security] use dta middleware
+2022-08-22 00:30:17,571 INFO 15516 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:30:17,578 INFO 15516 [egg:core] dump config after load, 3ms
+2022-08-22 00:30:17,586 INFO 15516 [egg-watcher:application] watcher start success
+2022-08-22 00:30:17,587 INFO 15516 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:30:17,592 INFO 15516 [egg:core] dump config after ready, 4ms
+2022-08-22 00:37:18,471 INFO 15516 [egg-rpc] rpc server is closed
+2022-08-22 00:37:18,215 INFO 15597 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:37:18,242 INFO 15597 [egg-multipart] stream mode enable
+2022-08-22 00:37:18,338 INFO 15597 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:37:18,339 INFO 15597 [egg-security] use csrf middleware
+2022-08-22 00:37:18,340 INFO 15597 [egg-security] use methodnoallow middleware
+2022-08-22 00:37:18,341 INFO 15597 [egg-security] use noopen middleware
+2022-08-22 00:37:18,341 INFO 15597 [egg-security] use nosniff middleware
+2022-08-22 00:37:18,342 INFO 15597 [egg-security] use xssProtection middleware
+2022-08-22 00:37:18,343 INFO 15597 [egg-security] use xframe middleware
+2022-08-22 00:37:18,343 INFO 15597 [egg-security] use dta middleware
+2022-08-22 00:37:18,343 INFO 15597 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:37:18,352 INFO 15597 [egg:core] dump config after load, 5ms
+2022-08-22 00:37:18,362 INFO 15597 [egg-watcher:application] watcher start success
+2022-08-22 00:37:18,362 INFO 15597 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:37:18,368 INFO 15597 [egg:core] dump config after ready, 4ms
+2022-08-22 00:37:59,708 INFO 15597 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:47:15,709 INFO 15597 [egg-rpc] rpc server is closed
+2022-08-22 00:47:15,422 INFO 15747 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:47:15,448 INFO 15747 [egg-multipart] stream mode enable
+2022-08-22 00:47:15,566 INFO 15747 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:47:15,568 INFO 15747 [egg-security] use csrf middleware
+2022-08-22 00:47:15,569 INFO 15747 [egg-security] use methodnoallow middleware
+2022-08-22 00:47:15,570 INFO 15747 [egg-security] use noopen middleware
+2022-08-22 00:47:15,572 INFO 15747 [egg-security] use nosniff middleware
+2022-08-22 00:47:15,573 INFO 15747 [egg-security] use xssProtection middleware
+2022-08-22 00:47:15,574 INFO 15747 [egg-security] use xframe middleware
+2022-08-22 00:47:15,575 INFO 15747 [egg-security] use dta middleware
+2022-08-22 00:47:15,575 INFO 15747 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:47:15,587 INFO 15747 [egg:core] dump config after load, 6ms
+2022-08-22 00:47:15,598 INFO 15747 [egg-watcher:application] watcher start success
+2022-08-22 00:47:15,599 INFO 15747 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:47:15,605 INFO 15747 [egg:core] dump config after ready, 5ms
+2022-08-22 00:48:54,960 INFO 15747 [egg-rpc] rpc server is closed
+2022-08-22 00:48:54,780 INFO 15797 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:48:54,809 INFO 15797 [egg-multipart] stream mode enable
+2022-08-22 00:48:54,924 INFO 15797 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:48:54,926 INFO 15797 [egg-security] use csrf middleware
+2022-08-22 00:48:54,926 INFO 15797 [egg-security] use methodnoallow middleware
+2022-08-22 00:48:54,927 INFO 15797 [egg-security] use noopen middleware
+2022-08-22 00:48:54,928 INFO 15797 [egg-security] use nosniff middleware
+2022-08-22 00:48:54,929 INFO 15797 [egg-security] use xssProtection middleware
+2022-08-22 00:48:54,930 INFO 15797 [egg-security] use xframe middleware
+2022-08-22 00:48:54,931 INFO 15797 [egg-security] use dta middleware
+2022-08-22 00:48:54,931 INFO 15797 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:48:54,940 INFO 15797 [egg:core] dump config after load, 6ms
+2022-08-22 00:48:54,951 INFO 15797 [egg-watcher:application] watcher start success
+2022-08-22 00:48:54,951 INFO 15797 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:48:54,957 INFO 15797 [egg:core] dump config after ready, 4ms
+2022-08-22 00:48:57,166 INFO 15797 [egg-rpc] rpc server is closed
+2022-08-22 00:48:57,066 INFO 15805 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:48:57,087 INFO 15805 [egg-multipart] stream mode enable
+2022-08-22 00:48:57,139 INFO 15805 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:48:57,141 INFO 15805 [egg-security] use csrf middleware
+2022-08-22 00:48:57,141 INFO 15805 [egg-security] use methodnoallow middleware
+2022-08-22 00:48:57,142 INFO 15805 [egg-security] use noopen middleware
+2022-08-22 00:48:57,142 INFO 15805 [egg-security] use nosniff middleware
+2022-08-22 00:48:57,142 INFO 15805 [egg-security] use xssProtection middleware
+2022-08-22 00:48:57,142 INFO 15805 [egg-security] use xframe middleware
+2022-08-22 00:48:57,143 INFO 15805 [egg-security] use dta middleware
+2022-08-22 00:48:57,143 INFO 15805 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:48:57,149 INFO 15805 [egg:core] dump config after load, 4ms
+2022-08-22 00:48:57,158 INFO 15805 [egg-watcher:application] watcher start success
+2022-08-22 00:48:57,159 INFO 15805 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:48:57,164 INFO 15805 [egg:core] dump config after ready, 4ms
+2022-08-22 00:49:09,062 INFO 15805 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:50:27,152 INFO 15805 [egg-rpc] rpc server is closed
+2022-08-22 00:50:26,875 INFO 15829 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:50:26,903 INFO 15829 [egg-multipart] stream mode enable
+2022-08-22 00:50:27,012 INFO 15829 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:50:27,014 INFO 15829 [egg-security] use csrf middleware
+2022-08-22 00:50:27,015 INFO 15829 [egg-security] use methodnoallow middleware
+2022-08-22 00:50:27,015 INFO 15829 [egg-security] use noopen middleware
+2022-08-22 00:50:27,016 INFO 15829 [egg-security] use nosniff middleware
+2022-08-22 00:50:27,017 INFO 15829 [egg-security] use xssProtection middleware
+2022-08-22 00:50:27,018 INFO 15829 [egg-security] use xframe middleware
+2022-08-22 00:50:27,018 INFO 15829 [egg-security] use dta middleware
+2022-08-22 00:50:27,018 INFO 15829 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:50:27,031 INFO 15829 [egg:core] dump config after load, 7ms
+2022-08-22 00:50:27,041 INFO 15829 [egg-watcher:application] watcher start success
+2022-08-22 00:50:27,042 INFO 15829 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:50:27,047 INFO 15829 [egg:core] dump config after ready, 4ms
+2022-08-22 00:51:35,711 INFO 15829 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 00:55:10,521 INFO 15829 [egg-rpc] rpc server is closed
+2022-08-22 00:55:10,211 INFO 15901 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:55:10,241 INFO 15901 [egg-multipart] stream mode enable
+2022-08-22 00:55:10,383 INFO 15901 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:55:10,385 INFO 15901 [egg-security] use csrf middleware
+2022-08-22 00:55:10,387 INFO 15901 [egg-security] use methodnoallow middleware
+2022-08-22 00:55:10,388 INFO 15901 [egg-security] use noopen middleware
+2022-08-22 00:55:10,389 INFO 15901 [egg-security] use nosniff middleware
+2022-08-22 00:55:10,390 INFO 15901 [egg-security] use xssProtection middleware
+2022-08-22 00:55:10,392 INFO 15901 [egg-security] use xframe middleware
+2022-08-22 00:55:10,393 INFO 15901 [egg-security] use dta middleware
+2022-08-22 00:55:10,393 INFO 15901 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:55:10,403 INFO 15901 [egg:core] dump config after load, 5ms
+2022-08-22 00:55:10,412 INFO 15901 [egg-watcher:application] watcher start success
+2022-08-22 00:55:10,412 INFO 15901 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:55:10,418 INFO 15901 [egg:core] dump config after ready, 5ms
+2022-08-22 00:57:30,997 INFO 15901 [egg-rpc] rpc server is closed
+2022-08-22 00:58:53,525 INFO 15973 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 00:58:53,550 INFO 15973 [egg-multipart] stream mode enable
+2022-08-22 00:58:53,714 INFO 15973 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 00:58:53,716 INFO 15973 [egg-security] use csrf middleware
+2022-08-22 00:58:53,717 INFO 15973 [egg-security] use methodnoallow middleware
+2022-08-22 00:58:53,718 INFO 15973 [egg-security] use noopen middleware
+2022-08-22 00:58:53,719 INFO 15973 [egg-security] use nosniff middleware
+2022-08-22 00:58:53,719 INFO 15973 [egg-security] use xssProtection middleware
+2022-08-22 00:58:53,720 INFO 15973 [egg-security] use xframe middleware
+2022-08-22 00:58:53,721 INFO 15973 [egg-security] use dta middleware
+2022-08-22 00:58:53,721 INFO 15973 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 00:58:53,731 INFO 15973 [egg:core] dump config after load, 6ms
+2022-08-22 00:58:53,741 INFO 15973 [egg-watcher:application] watcher start success
+2022-08-22 00:58:53,741 INFO 15973 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 00:58:53,747 INFO 15973 [egg:core] dump config after ready, 4ms
+2022-08-22 00:59:09,648 INFO 15973 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:00:01,650 INFO 15973 [egg-rpc] rpc server is closed
+2022-08-22 01:00:01,359 INFO 15995 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:00:01,389 INFO 15995 [egg-multipart] stream mode enable
+2022-08-22 01:00:01,508 INFO 15995 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:00:01,510 INFO 15995 [egg-security] use csrf middleware
+2022-08-22 01:00:01,511 INFO 15995 [egg-security] use methodnoallow middleware
+2022-08-22 01:00:01,512 INFO 15995 [egg-security] use noopen middleware
+2022-08-22 01:00:01,513 INFO 15995 [egg-security] use nosniff middleware
+2022-08-22 01:00:01,515 INFO 15995 [egg-security] use xssProtection middleware
+2022-08-22 01:00:01,516 INFO 15995 [egg-security] use xframe middleware
+2022-08-22 01:00:01,517 INFO 15995 [egg-security] use dta middleware
+2022-08-22 01:00:01,517 INFO 15995 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:00:01,525 INFO 15995 [egg:core] dump config after load, 4ms
+2022-08-22 01:00:01,536 INFO 15995 [egg-watcher:application] watcher start success
+2022-08-22 01:00:01,537 INFO 15995 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:00:01,544 INFO 15995 [egg:core] dump config after ready, 6ms
+2022-08-22 01:00:05,194 INFO 15995 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:01:44,139 INFO 15995 [egg-rpc] rpc server is closed
+2022-08-22 01:01:43,912 INFO 16016 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:01:43,932 INFO 16016 [egg-multipart] stream mode enable
+2022-08-22 01:01:43,988 INFO 16016 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:01:43,990 INFO 16016 [egg-security] use csrf middleware
+2022-08-22 01:01:43,991 INFO 16016 [egg-security] use methodnoallow middleware
+2022-08-22 01:01:43,992 INFO 16016 [egg-security] use noopen middleware
+2022-08-22 01:01:43,992 INFO 16016 [egg-security] use nosniff middleware
+2022-08-22 01:01:43,993 INFO 16016 [egg-security] use xssProtection middleware
+2022-08-22 01:01:43,993 INFO 16016 [egg-security] use xframe middleware
+2022-08-22 01:01:43,993 INFO 16016 [egg-security] use dta middleware
+2022-08-22 01:01:43,993 INFO 16016 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:01:44,002 INFO 16016 [egg:core] dump config after load, 5ms
+2022-08-22 01:01:44,015 INFO 16016 [egg-watcher:application] watcher start success
+2022-08-22 01:01:44,017 INFO 16016 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:01:44,033 INFO 16016 [egg:core] dump config after ready, 13ms
+2022-08-22 01:01:47,547 INFO 16016 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:02:35,213 INFO 16016 [egg-rpc] rpc server is closed
+2022-08-22 01:02:37,074 INFO 16046 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:02:37,095 INFO 16046 [egg-multipart] stream mode enable
+2022-08-22 01:02:37,144 INFO 16046 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:02:37,145 INFO 16046 [egg-security] use csrf middleware
+2022-08-22 01:02:37,146 INFO 16046 [egg-security] use methodnoallow middleware
+2022-08-22 01:02:37,146 INFO 16046 [egg-security] use noopen middleware
+2022-08-22 01:02:37,146 INFO 16046 [egg-security] use nosniff middleware
+2022-08-22 01:02:37,147 INFO 16046 [egg-security] use xssProtection middleware
+2022-08-22 01:02:37,147 INFO 16046 [egg-security] use xframe middleware
+2022-08-22 01:02:37,147 INFO 16046 [egg-security] use dta middleware
+2022-08-22 01:02:37,147 INFO 16046 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:02:37,154 INFO 16046 [egg:core] dump config after load, 4ms
+2022-08-22 01:02:37,162 INFO 16046 [egg-watcher:application] watcher start success
+2022-08-22 01:02:37,163 INFO 16046 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:02:37,168 INFO 16046 [egg:core] dump config after ready, 4ms
+2022-08-22 01:03:02,368 INFO 16046 [egg-rpc] rpc server is closed
+2022-08-22 01:03:02,238 INFO 16053 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:03:02,263 INFO 16053 [egg-multipart] stream mode enable
+2022-08-22 01:03:02,323 INFO 16053 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:03:02,325 INFO 16053 [egg-security] use csrf middleware
+2022-08-22 01:03:02,325 INFO 16053 [egg-security] use methodnoallow middleware
+2022-08-22 01:03:02,325 INFO 16053 [egg-security] use noopen middleware
+2022-08-22 01:03:02,326 INFO 16053 [egg-security] use nosniff middleware
+2022-08-22 01:03:02,326 INFO 16053 [egg-security] use xssProtection middleware
+2022-08-22 01:03:02,326 INFO 16053 [egg-security] use xframe middleware
+2022-08-22 01:03:02,327 INFO 16053 [egg-security] use dta middleware
+2022-08-22 01:03:02,327 INFO 16053 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:03:02,333 INFO 16053 [egg:core] dump config after load, 4ms
+2022-08-22 01:03:02,353 INFO 16053 [egg-watcher:application] watcher start success
+2022-08-22 01:03:02,356 INFO 16053 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:03:02,363 INFO 16053 [egg:core] dump config after ready, 5ms
+2022-08-22 01:03:05,602 INFO 16053 [egg-rpc] rpc server is closed
+2022-08-22 01:03:05,501 INFO 16058 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:03:05,521 INFO 16058 [egg-multipart] stream mode enable
+2022-08-22 01:03:05,575 INFO 16058 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:03:05,576 INFO 16058 [egg-security] use csrf middleware
+2022-08-22 01:03:05,577 INFO 16058 [egg-security] use methodnoallow middleware
+2022-08-22 01:03:05,577 INFO 16058 [egg-security] use noopen middleware
+2022-08-22 01:03:05,577 INFO 16058 [egg-security] use nosniff middleware
+2022-08-22 01:03:05,578 INFO 16058 [egg-security] use xssProtection middleware
+2022-08-22 01:03:05,578 INFO 16058 [egg-security] use xframe middleware
+2022-08-22 01:03:05,578 INFO 16058 [egg-security] use dta middleware
+2022-08-22 01:03:05,578 INFO 16058 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:03:05,585 INFO 16058 [egg:core] dump config after load, 4ms
+2022-08-22 01:03:05,594 INFO 16058 [egg-watcher:application] watcher start success
+2022-08-22 01:03:05,594 INFO 16058 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:03:05,600 INFO 16058 [egg:core] dump config after ready, 4ms
+2022-08-22 01:03:10,257 INFO 16058 [egg-rpc] rpc server is closed
+2022-08-22 01:03:10,157 INFO 16066 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:03:10,176 INFO 16066 [egg-multipart] stream mode enable
+2022-08-22 01:03:10,228 INFO 16066 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:03:10,230 INFO 16066 [egg-security] use csrf middleware
+2022-08-22 01:03:10,230 INFO 16066 [egg-security] use methodnoallow middleware
+2022-08-22 01:03:10,231 INFO 16066 [egg-security] use noopen middleware
+2022-08-22 01:03:10,231 INFO 16066 [egg-security] use nosniff middleware
+2022-08-22 01:03:10,231 INFO 16066 [egg-security] use xssProtection middleware
+2022-08-22 01:03:10,231 INFO 16066 [egg-security] use xframe middleware
+2022-08-22 01:03:10,232 INFO 16066 [egg-security] use dta middleware
+2022-08-22 01:03:10,232 INFO 16066 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:03:10,239 INFO 16066 [egg:core] dump config after load, 5ms
+2022-08-22 01:03:10,248 INFO 16066 [egg-watcher:application] watcher start success
+2022-08-22 01:03:10,249 INFO 16066 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:03:10,254 INFO 16066 [egg:core] dump config after ready, 4ms
+2022-08-22 01:04:10,092 INFO 16066 [egg-rpc] rpc server is closed
+2022-08-22 01:04:09,898 INFO 16090 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:04:09,916 INFO 16090 [egg-multipart] stream mode enable
+2022-08-22 01:04:09,963 INFO 16090 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:04:09,965 INFO 16090 [egg-security] use csrf middleware
+2022-08-22 01:04:09,965 INFO 16090 [egg-security] use methodnoallow middleware
+2022-08-22 01:04:09,965 INFO 16090 [egg-security] use noopen middleware
+2022-08-22 01:04:09,966 INFO 16090 [egg-security] use nosniff middleware
+2022-08-22 01:04:09,966 INFO 16090 [egg-security] use xssProtection middleware
+2022-08-22 01:04:09,966 INFO 16090 [egg-security] use xframe middleware
+2022-08-22 01:04:09,966 INFO 16090 [egg-security] use dta middleware
+2022-08-22 01:04:09,966 INFO 16090 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:04:09,972 INFO 16090 [egg:core] dump config after load, 3ms
+2022-08-22 01:04:09,981 INFO 16090 [egg-watcher:application] watcher start success
+2022-08-22 01:04:09,982 INFO 16090 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:04:09,987 INFO 16090 [egg:core] dump config after ready, 4ms
+2022-08-22 01:04:12,754 INFO 16090 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:24:27,525 INFO 16090 [egg-rpc] rpc server is closed
+2022-08-22 01:24:27,241 INFO 16500 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:24:27,269 INFO 16500 [egg-multipart] stream mode enable
+2022-08-22 01:24:27,383 INFO 16500 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:24:27,386 INFO 16500 [egg-security] use csrf middleware
+2022-08-22 01:24:27,387 INFO 16500 [egg-security] use methodnoallow middleware
+2022-08-22 01:24:27,388 INFO 16500 [egg-security] use noopen middleware
+2022-08-22 01:24:27,389 INFO 16500 [egg-security] use nosniff middleware
+2022-08-22 01:24:27,390 INFO 16500 [egg-security] use xssProtection middleware
+2022-08-22 01:24:27,391 INFO 16500 [egg-security] use xframe middleware
+2022-08-22 01:24:27,392 INFO 16500 [egg-security] use dta middleware
+2022-08-22 01:24:27,392 INFO 16500 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:24:27,403 INFO 16500 [egg:core] dump config after load, 7ms
+2022-08-22 01:24:27,414 INFO 16500 [egg-watcher:application] watcher start success
+2022-08-22 01:24:27,414 INFO 16500 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:24:27,419 INFO 16500 [egg:core] dump config after ready, 4ms
+2022-08-22 01:40:02,857 INFO 16500 [egg-rpc] rpc server is closed
+2022-08-22 01:40:02,574 INFO 16653 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:40:02,608 INFO 16653 [egg-multipart] stream mode enable
+2022-08-22 01:40:02,813 INFO 16653 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:40:02,815 INFO 16653 [egg-security] use csrf middleware
+2022-08-22 01:40:02,816 INFO 16653 [egg-security] use methodnoallow middleware
+2022-08-22 01:40:02,817 INFO 16653 [egg-security] use noopen middleware
+2022-08-22 01:40:02,819 INFO 16653 [egg-security] use nosniff middleware
+2022-08-22 01:40:02,820 INFO 16653 [egg-security] use xssProtection middleware
+2022-08-22 01:40:02,822 INFO 16653 [egg-security] use xframe middleware
+2022-08-22 01:40:02,823 INFO 16653 [egg-security] use dta middleware
+2022-08-22 01:40:02,823 INFO 16653 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:40:02,837 INFO 16653 [egg:core] dump config after load, 8ms
+2022-08-22 01:40:02,848 INFO 16653 [egg-watcher:application] watcher start success
+2022-08-22 01:40:02,849 INFO 16653 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:40:02,854 INFO 16653 [egg:core] dump config after ready, 4ms
+2022-08-22 01:40:07,423 INFO 16653 [egg-rpc] rpc server is closed
+2022-08-22 01:40:07,315 INFO 16666 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:40:07,338 INFO 16666 [egg-multipart] stream mode enable
+2022-08-22 01:40:07,393 INFO 16666 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:40:07,395 INFO 16666 [egg-security] use csrf middleware
+2022-08-22 01:40:07,395 INFO 16666 [egg-security] use methodnoallow middleware
+2022-08-22 01:40:07,396 INFO 16666 [egg-security] use noopen middleware
+2022-08-22 01:40:07,396 INFO 16666 [egg-security] use nosniff middleware
+2022-08-22 01:40:07,397 INFO 16666 [egg-security] use xssProtection middleware
+2022-08-22 01:40:07,397 INFO 16666 [egg-security] use xframe middleware
+2022-08-22 01:40:07,397 INFO 16666 [egg-security] use dta middleware
+2022-08-22 01:40:07,397 INFO 16666 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:40:07,405 INFO 16666 [egg:core] dump config after load, 5ms
+2022-08-22 01:40:07,414 INFO 16666 [egg-watcher:application] watcher start success
+2022-08-22 01:40:07,414 INFO 16666 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:40:07,421 INFO 16666 [egg:core] dump config after ready, 5ms
+2022-08-22 01:40:21,644 INFO 16666 [egg-rpc] rpc server is closed
+2022-08-22 01:40:21,402 INFO 16681 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:40:21,428 INFO 16681 [egg-multipart] stream mode enable
+2022-08-22 01:40:21,603 INFO 16681 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:40:21,605 INFO 16681 [egg-security] use csrf middleware
+2022-08-22 01:40:21,607 INFO 16681 [egg-security] use methodnoallow middleware
+2022-08-22 01:40:21,608 INFO 16681 [egg-security] use noopen middleware
+2022-08-22 01:40:21,610 INFO 16681 [egg-security] use nosniff middleware
+2022-08-22 01:40:21,611 INFO 16681 [egg-security] use xssProtection middleware
+2022-08-22 01:40:21,613 INFO 16681 [egg-security] use xframe middleware
+2022-08-22 01:40:21,613 INFO 16681 [egg-security] use dta middleware
+2022-08-22 01:40:21,614 INFO 16681 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:40:21,624 INFO 16681 [egg:core] dump config after load, 5ms
+2022-08-22 01:40:21,635 INFO 16681 [egg-watcher:application] watcher start success
+2022-08-22 01:40:21,636 INFO 16681 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:40:21,642 INFO 16681 [egg:core] dump config after ready, 5ms
+2022-08-22 01:45:33,330 INFO 16681 [egg-rpc] rpc server is closed
+2022-08-22 01:45:33,098 INFO 16754 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:45:33,132 INFO 16754 [egg-multipart] stream mode enable
+2022-08-22 01:45:33,300 INFO 16754 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:45:33,302 INFO 16754 [egg-security] use csrf middleware
+2022-08-22 01:45:33,303 INFO 16754 [egg-security] use methodnoallow middleware
+2022-08-22 01:45:33,303 INFO 16754 [egg-security] use noopen middleware
+2022-08-22 01:45:33,304 INFO 16754 [egg-security] use nosniff middleware
+2022-08-22 01:45:33,305 INFO 16754 [egg-security] use xssProtection middleware
+2022-08-22 01:45:33,305 INFO 16754 [egg-security] use xframe middleware
+2022-08-22 01:45:33,306 INFO 16754 [egg-security] use dta middleware
+2022-08-22 01:45:33,306 INFO 16754 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:45:33,314 INFO 16754 [egg:core] dump config after load, 4ms
+2022-08-22 01:45:33,322 INFO 16754 [egg-watcher:application] watcher start success
+2022-08-22 01:45:33,323 INFO 16754 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:45:33,327 INFO 16754 [egg:core] dump config after ready, 4ms
+2022-08-22 01:45:44,811 INFO 16754 [egg-rpc] rpc server is closed
+2022-08-22 01:45:44,713 INFO 16760 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:45:44,731 INFO 16760 [egg-multipart] stream mode enable
+2022-08-22 01:45:44,784 INFO 16760 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:45:44,786 INFO 16760 [egg-security] use csrf middleware
+2022-08-22 01:45:44,786 INFO 16760 [egg-security] use methodnoallow middleware
+2022-08-22 01:45:44,786 INFO 16760 [egg-security] use noopen middleware
+2022-08-22 01:45:44,787 INFO 16760 [egg-security] use nosniff middleware
+2022-08-22 01:45:44,787 INFO 16760 [egg-security] use xssProtection middleware
+2022-08-22 01:45:44,787 INFO 16760 [egg-security] use xframe middleware
+2022-08-22 01:45:44,787 INFO 16760 [egg-security] use dta middleware
+2022-08-22 01:45:44,788 INFO 16760 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:45:44,794 INFO 16760 [egg:core] dump config after load, 4ms
+2022-08-22 01:45:44,803 INFO 16760 [egg-watcher:application] watcher start success
+2022-08-22 01:45:44,803 INFO 16760 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:45:44,809 INFO 16760 [egg:core] dump config after ready, 5ms
+2022-08-22 01:45:57,321 INFO 16760 [egg-rpc] rpc server is closed
+2022-08-22 01:45:57,225 INFO 16770 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:45:57,245 INFO 16770 [egg-multipart] stream mode enable
+2022-08-22 01:45:57,294 INFO 16770 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:45:57,296 INFO 16770 [egg-security] use csrf middleware
+2022-08-22 01:45:57,297 INFO 16770 [egg-security] use methodnoallow middleware
+2022-08-22 01:45:57,297 INFO 16770 [egg-security] use noopen middleware
+2022-08-22 01:45:57,297 INFO 16770 [egg-security] use nosniff middleware
+2022-08-22 01:45:57,297 INFO 16770 [egg-security] use xssProtection middleware
+2022-08-22 01:45:57,298 INFO 16770 [egg-security] use xframe middleware
+2022-08-22 01:45:57,298 INFO 16770 [egg-security] use dta middleware
+2022-08-22 01:45:57,298 INFO 16770 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:45:57,305 INFO 16770 [egg:core] dump config after load, 4ms
+2022-08-22 01:45:57,313 INFO 16770 [egg-watcher:application] watcher start success
+2022-08-22 01:45:57,313 INFO 16770 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:45:57,319 INFO 16770 [egg:core] dump config after ready, 5ms
+2022-08-22 01:46:00,894 INFO 16770 [egg-rpc] rpc server is closed
+2022-08-22 01:46:00,801 INFO 16774 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:46:00,819 INFO 16774 [egg-multipart] stream mode enable
+2022-08-22 01:46:00,868 INFO 16774 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:46:00,870 INFO 16774 [egg-security] use csrf middleware
+2022-08-22 01:46:00,870 INFO 16774 [egg-security] use methodnoallow middleware
+2022-08-22 01:46:00,870 INFO 16774 [egg-security] use noopen middleware
+2022-08-22 01:46:00,871 INFO 16774 [egg-security] use nosniff middleware
+2022-08-22 01:46:00,871 INFO 16774 [egg-security] use xssProtection middleware
+2022-08-22 01:46:00,871 INFO 16774 [egg-security] use xframe middleware
+2022-08-22 01:46:00,871 INFO 16774 [egg-security] use dta middleware
+2022-08-22 01:46:00,871 INFO 16774 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:46:00,877 INFO 16774 [egg:core] dump config after load, 3ms
+2022-08-22 01:46:00,886 INFO 16774 [egg-watcher:application] watcher start success
+2022-08-22 01:46:00,886 INFO 16774 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:46:00,892 INFO 16774 [egg:core] dump config after ready, 5ms
+2022-08-22 01:46:04,976 INFO 16774 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:47:30,784 INFO 16774 [egg-rpc] rpc server is closed
+2022-08-22 01:47:32,389 INFO 16796 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:47:32,408 INFO 16796 [egg-multipart] stream mode enable
+2022-08-22 01:47:32,528 INFO 16796 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:47:32,531 INFO 16796 [egg-security] use csrf middleware
+2022-08-22 01:47:32,532 INFO 16796 [egg-security] use methodnoallow middleware
+2022-08-22 01:47:32,533 INFO 16796 [egg-security] use noopen middleware
+2022-08-22 01:47:32,534 INFO 16796 [egg-security] use nosniff middleware
+2022-08-22 01:47:32,535 INFO 16796 [egg-security] use xssProtection middleware
+2022-08-22 01:47:32,536 INFO 16796 [egg-security] use xframe middleware
+2022-08-22 01:47:32,537 INFO 16796 [egg-security] use dta middleware
+2022-08-22 01:47:32,537 INFO 16796 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:47:32,547 INFO 16796 [egg:core] dump config after load, 4ms
+2022-08-22 01:47:32,556 INFO 16796 [egg-watcher:application] watcher start success
+2022-08-22 01:47:32,557 INFO 16796 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:47:32,562 INFO 16796 [egg:core] dump config after ready, 4ms
+2022-08-22 01:47:37,272 INFO 16796 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:48:10,236 INFO 16796 [egg-rpc] rpc server is closed
+2022-08-22 01:48:09,953 INFO 16815 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:48:09,981 INFO 16815 [egg-multipart] stream mode enable
+2022-08-22 01:48:10,095 INFO 16815 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:48:10,098 INFO 16815 [egg-security] use csrf middleware
+2022-08-22 01:48:10,099 INFO 16815 [egg-security] use methodnoallow middleware
+2022-08-22 01:48:10,100 INFO 16815 [egg-security] use noopen middleware
+2022-08-22 01:48:10,101 INFO 16815 [egg-security] use nosniff middleware
+2022-08-22 01:48:10,103 INFO 16815 [egg-security] use xssProtection middleware
+2022-08-22 01:48:10,104 INFO 16815 [egg-security] use xframe middleware
+2022-08-22 01:48:10,105 INFO 16815 [egg-security] use dta middleware
+2022-08-22 01:48:10,105 INFO 16815 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:48:10,116 INFO 16815 [egg:core] dump config after load, 6ms
+2022-08-22 01:48:10,126 INFO 16815 [egg-watcher:application] watcher start success
+2022-08-22 01:48:10,127 INFO 16815 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:48:10,132 INFO 16815 [egg:core] dump config after ready, 4ms
+2022-08-22 01:48:28,167 INFO 16815 [egg-rpc] rpc server is closed
+2022-08-22 01:48:28,065 INFO 16824 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:48:28,085 INFO 16824 [egg-multipart] stream mode enable
+2022-08-22 01:48:28,136 INFO 16824 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:48:28,138 INFO 16824 [egg-security] use csrf middleware
+2022-08-22 01:48:28,139 INFO 16824 [egg-security] use methodnoallow middleware
+2022-08-22 01:48:28,140 INFO 16824 [egg-security] use noopen middleware
+2022-08-22 01:48:28,140 INFO 16824 [egg-security] use nosniff middleware
+2022-08-22 01:48:28,140 INFO 16824 [egg-security] use xssProtection middleware
+2022-08-22 01:48:28,141 INFO 16824 [egg-security] use xframe middleware
+2022-08-22 01:48:28,141 INFO 16824 [egg-security] use dta middleware
+2022-08-22 01:48:28,141 INFO 16824 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:48:28,147 INFO 16824 [egg:core] dump config after load, 4ms
+2022-08-22 01:48:28,158 INFO 16824 [egg-watcher:application] watcher start success
+2022-08-22 01:48:28,159 INFO 16824 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:48:28,164 INFO 16824 [egg:core] dump config after ready, 4ms
+2022-08-22 01:48:30,288 INFO 16824 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:49:09,726 INFO 16824 [egg-rpc] rpc server is closed
+2022-08-22 01:49:09,446 INFO 16834 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:49:09,471 INFO 16834 [egg-multipart] stream mode enable
+2022-08-22 01:49:09,589 INFO 16834 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:49:09,591 INFO 16834 [egg-security] use csrf middleware
+2022-08-22 01:49:09,592 INFO 16834 [egg-security] use methodnoallow middleware
+2022-08-22 01:49:09,594 INFO 16834 [egg-security] use noopen middleware
+2022-08-22 01:49:09,595 INFO 16834 [egg-security] use nosniff middleware
+2022-08-22 01:49:09,596 INFO 16834 [egg-security] use xssProtection middleware
+2022-08-22 01:49:09,597 INFO 16834 [egg-security] use xframe middleware
+2022-08-22 01:49:09,598 INFO 16834 [egg-security] use dta middleware
+2022-08-22 01:49:09,598 INFO 16834 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:49:09,607 INFO 16834 [egg:core] dump config after load, 5ms
+2022-08-22 01:49:09,616 INFO 16834 [egg-watcher:application] watcher start success
+2022-08-22 01:49:09,616 INFO 16834 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:49:09,622 INFO 16834 [egg:core] dump config after ready, 4ms
+2022-08-22 01:51:08,711 INFO 16834 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:53:00,859 INFO 16834 [egg-rpc] rpc server is closed
+2022-08-22 01:53:51,159 INFO 16947 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:53:51,178 INFO 16947 [egg-multipart] stream mode enable
+2022-08-22 01:53:51,281 INFO 16947 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:53:51,283 INFO 16947 [egg-security] use csrf middleware
+2022-08-22 01:53:51,284 INFO 16947 [egg-security] use methodnoallow middleware
+2022-08-22 01:53:51,285 INFO 16947 [egg-security] use noopen middleware
+2022-08-22 01:53:51,286 INFO 16947 [egg-security] use nosniff middleware
+2022-08-22 01:53:51,286 INFO 16947 [egg-security] use xssProtection middleware
+2022-08-22 01:53:51,287 INFO 16947 [egg-security] use xframe middleware
+2022-08-22 01:53:51,288 INFO 16947 [egg-security] use dta middleware
+2022-08-22 01:53:51,288 INFO 16947 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:53:51,297 INFO 16947 [egg:core] dump config after load, 5ms
+2022-08-22 01:53:51,309 INFO 16947 [egg-watcher:application] watcher start success
+2022-08-22 01:53:51,310 INFO 16947 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:53:51,316 INFO 16947 [egg:core] dump config after ready, 5ms
+2022-08-22 01:53:55,062 INFO 16947 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 01:58:29,300 INFO 16947 [egg-rpc] rpc server is closed
+2022-08-22 01:58:28,937 INFO 17021 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:58:28,973 INFO 17021 [egg-multipart] stream mode enable
+2022-08-22 01:58:29,154 INFO 17021 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:58:29,157 INFO 17021 [egg-security] use csrf middleware
+2022-08-22 01:58:29,159 INFO 17021 [egg-security] use methodnoallow middleware
+2022-08-22 01:58:29,160 INFO 17021 [egg-security] use noopen middleware
+2022-08-22 01:58:29,161 INFO 17021 [egg-security] use nosniff middleware
+2022-08-22 01:58:29,162 INFO 17021 [egg-security] use xssProtection middleware
+2022-08-22 01:58:29,164 INFO 17021 [egg-security] use xframe middleware
+2022-08-22 01:58:29,165 INFO 17021 [egg-security] use dta middleware
+2022-08-22 01:58:29,165 INFO 17021 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:58:29,177 INFO 17021 [egg:core] dump config after load, 7ms
+2022-08-22 01:58:29,187 INFO 17021 [egg-watcher:application] watcher start success
+2022-08-22 01:58:29,188 INFO 17021 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:58:29,194 INFO 17021 [egg:core] dump config after ready, 5ms
+2022-08-22 01:58:37,834 INFO 17021 [egg-rpc] rpc server is closed
+2022-08-22 01:58:37,634 INFO 17029 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 01:58:37,661 INFO 17029 [egg-multipart] stream mode enable
+2022-08-22 01:58:37,774 INFO 17029 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 01:58:37,776 INFO 17029 [egg-security] use csrf middleware
+2022-08-22 01:58:37,779 INFO 17029 [egg-security] use methodnoallow middleware
+2022-08-22 01:58:37,781 INFO 17029 [egg-security] use noopen middleware
+2022-08-22 01:58:37,781 INFO 17029 [egg-security] use nosniff middleware
+2022-08-22 01:58:37,783 INFO 17029 [egg-security] use xssProtection middleware
+2022-08-22 01:58:37,784 INFO 17029 [egg-security] use xframe middleware
+2022-08-22 01:58:37,784 INFO 17029 [egg-security] use dta middleware
+2022-08-22 01:58:37,784 INFO 17029 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 01:58:37,798 INFO 17029 [egg:core] dump config after load, 9ms
+2022-08-22 01:58:37,824 INFO 17029 [egg-watcher:application] watcher start success
+2022-08-22 01:58:37,826 INFO 17029 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 01:58:37,831 INFO 17029 [egg:core] dump config after ready, 4ms
+2022-08-22 01:58:45,371 INFO 17029 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:03:19,480 INFO 17029 [egg-rpc] rpc server is closed
+2022-08-22 02:03:19,188 INFO 17101 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:03:19,221 INFO 17101 [egg-multipart] stream mode enable
+2022-08-22 02:03:19,346 INFO 17101 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:03:19,348 INFO 17101 [egg-security] use csrf middleware
+2022-08-22 02:03:19,349 INFO 17101 [egg-security] use methodnoallow middleware
+2022-08-22 02:03:19,350 INFO 17101 [egg-security] use noopen middleware
+2022-08-22 02:03:19,351 INFO 17101 [egg-security] use nosniff middleware
+2022-08-22 02:03:19,352 INFO 17101 [egg-security] use xssProtection middleware
+2022-08-22 02:03:19,352 INFO 17101 [egg-security] use xframe middleware
+2022-08-22 02:03:19,353 INFO 17101 [egg-security] use dta middleware
+2022-08-22 02:03:19,353 INFO 17101 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:03:19,361 INFO 17101 [egg:core] dump config after load, 5ms
+2022-08-22 02:03:19,369 INFO 17101 [egg-watcher:application] watcher start success
+2022-08-22 02:03:19,370 INFO 17101 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:03:19,375 INFO 17101 [egg:core] dump config after ready, 4ms
+2022-08-22 02:03:52,861 INFO 17101 [egg-rpc] rpc server is closed
+2022-08-22 02:03:52,692 INFO 17112 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:03:52,720 INFO 17112 [egg-multipart] stream mode enable
+2022-08-22 02:03:52,823 INFO 17112 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:03:52,826 INFO 17112 [egg-security] use csrf middleware
+2022-08-22 02:03:52,827 INFO 17112 [egg-security] use methodnoallow middleware
+2022-08-22 02:03:52,828 INFO 17112 [egg-security] use noopen middleware
+2022-08-22 02:03:52,829 INFO 17112 [egg-security] use nosniff middleware
+2022-08-22 02:03:52,830 INFO 17112 [egg-security] use xssProtection middleware
+2022-08-22 02:03:52,831 INFO 17112 [egg-security] use xframe middleware
+2022-08-22 02:03:52,831 INFO 17112 [egg-security] use dta middleware
+2022-08-22 02:03:52,832 INFO 17112 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:03:52,841 INFO 17112 [egg:core] dump config after load, 5ms
+2022-08-22 02:03:52,851 INFO 17112 [egg-watcher:application] watcher start success
+2022-08-22 02:03:52,851 INFO 17112 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:03:52,857 INFO 17112 [egg:core] dump config after ready, 5ms
+2022-08-22 02:05:01,930 INFO 17112 [egg-rpc] rpc server is closed
+2022-08-22 02:05:01,730 INFO 17128 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:01,759 INFO 17128 [egg-multipart] stream mode enable
+2022-08-22 02:05:01,894 INFO 17128 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:01,897 INFO 17128 [egg-security] use csrf middleware
+2022-08-22 02:05:01,898 INFO 17128 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:01,898 INFO 17128 [egg-security] use noopen middleware
+2022-08-22 02:05:01,899 INFO 17128 [egg-security] use nosniff middleware
+2022-08-22 02:05:01,900 INFO 17128 [egg-security] use xssProtection middleware
+2022-08-22 02:05:01,901 INFO 17128 [egg-security] use xframe middleware
+2022-08-22 02:05:01,902 INFO 17128 [egg-security] use dta middleware
+2022-08-22 02:05:01,902 INFO 17128 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:01,912 INFO 17128 [egg:core] dump config after load, 4ms
+2022-08-22 02:05:01,921 INFO 17128 [egg-watcher:application] watcher start success
+2022-08-22 02:05:01,922 INFO 17128 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:01,927 INFO 17128 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:13,714 INFO 17128 [egg-rpc] rpc server is closed
+2022-08-22 02:05:13,615 INFO 17134 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:13,633 INFO 17134 [egg-multipart] stream mode enable
+2022-08-22 02:05:13,681 INFO 17134 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:13,683 INFO 17134 [egg-security] use csrf middleware
+2022-08-22 02:05:13,683 INFO 17134 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:13,684 INFO 17134 [egg-security] use noopen middleware
+2022-08-22 02:05:13,684 INFO 17134 [egg-security] use nosniff middleware
+2022-08-22 02:05:13,684 INFO 17134 [egg-security] use xssProtection middleware
+2022-08-22 02:05:13,685 INFO 17134 [egg-security] use xframe middleware
+2022-08-22 02:05:13,685 INFO 17134 [egg-security] use dta middleware
+2022-08-22 02:05:13,685 INFO 17134 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:13,691 INFO 17134 [egg:core] dump config after load, 4ms
+2022-08-22 02:05:13,700 INFO 17134 [egg-watcher:application] watcher start success
+2022-08-22 02:05:13,701 INFO 17134 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:13,706 INFO 17134 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:16,890 INFO 17134 [egg-rpc] rpc server is closed
+2022-08-22 02:05:16,792 INFO 17139 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:16,812 INFO 17139 [egg-multipart] stream mode enable
+2022-08-22 02:05:16,863 INFO 17139 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:16,865 INFO 17139 [egg-security] use csrf middleware
+2022-08-22 02:05:16,865 INFO 17139 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:16,865 INFO 17139 [egg-security] use noopen middleware
+2022-08-22 02:05:16,866 INFO 17139 [egg-security] use nosniff middleware
+2022-08-22 02:05:16,866 INFO 17139 [egg-security] use xssProtection middleware
+2022-08-22 02:05:16,866 INFO 17139 [egg-security] use xframe middleware
+2022-08-22 02:05:16,866 INFO 17139 [egg-security] use dta middleware
+2022-08-22 02:05:16,866 INFO 17139 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:16,873 INFO 17139 [egg:core] dump config after load, 4ms
+2022-08-22 02:05:16,881 INFO 17139 [egg-watcher:application] watcher start success
+2022-08-22 02:05:16,882 INFO 17139 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:16,887 INFO 17139 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:19,730 INFO 17139 [egg-rpc] rpc server is closed
+2022-08-22 02:05:19,625 INFO 17146 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:19,646 INFO 17146 [egg-multipart] stream mode enable
+2022-08-22 02:05:19,703 INFO 17146 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:19,705 INFO 17146 [egg-security] use csrf middleware
+2022-08-22 02:05:19,705 INFO 17146 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:19,705 INFO 17146 [egg-security] use noopen middleware
+2022-08-22 02:05:19,706 INFO 17146 [egg-security] use nosniff middleware
+2022-08-22 02:05:19,706 INFO 17146 [egg-security] use xssProtection middleware
+2022-08-22 02:05:19,706 INFO 17146 [egg-security] use xframe middleware
+2022-08-22 02:05:19,706 INFO 17146 [egg-security] use dta middleware
+2022-08-22 02:05:19,707 INFO 17146 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:19,714 INFO 17146 [egg:core] dump config after load, 5ms
+2022-08-22 02:05:19,722 INFO 17146 [egg-watcher:application] watcher start success
+2022-08-22 02:05:19,723 INFO 17146 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:19,728 INFO 17146 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:21,941 INFO 17146 [egg-rpc] rpc server is closed
+2022-08-22 02:05:21,841 INFO 17150 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:21,861 INFO 17150 [egg-multipart] stream mode enable
+2022-08-22 02:05:21,914 INFO 17150 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:21,915 INFO 17150 [egg-security] use csrf middleware
+2022-08-22 02:05:21,916 INFO 17150 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:21,916 INFO 17150 [egg-security] use noopen middleware
+2022-08-22 02:05:21,916 INFO 17150 [egg-security] use nosniff middleware
+2022-08-22 02:05:21,917 INFO 17150 [egg-security] use xssProtection middleware
+2022-08-22 02:05:21,917 INFO 17150 [egg-security] use xframe middleware
+2022-08-22 02:05:21,917 INFO 17150 [egg-security] use dta middleware
+2022-08-22 02:05:21,917 INFO 17150 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:21,924 INFO 17150 [egg:core] dump config after load, 4ms
+2022-08-22 02:05:21,932 INFO 17150 [egg-watcher:application] watcher start success
+2022-08-22 02:05:21,933 INFO 17150 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:21,938 INFO 17150 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:30,957 INFO 17150 [egg-rpc] rpc server is closed
+2022-08-22 02:05:30,859 INFO 17154 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:30,879 INFO 17154 [egg-multipart] stream mode enable
+2022-08-22 02:05:30,930 INFO 17154 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:30,932 INFO 17154 [egg-security] use csrf middleware
+2022-08-22 02:05:30,933 INFO 17154 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:30,933 INFO 17154 [egg-security] use noopen middleware
+2022-08-22 02:05:30,933 INFO 17154 [egg-security] use nosniff middleware
+2022-08-22 02:05:30,933 INFO 17154 [egg-security] use xssProtection middleware
+2022-08-22 02:05:30,934 INFO 17154 [egg-security] use xframe middleware
+2022-08-22 02:05:30,934 INFO 17154 [egg-security] use dta middleware
+2022-08-22 02:05:30,934 INFO 17154 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:30,940 INFO 17154 [egg:core] dump config after load, 4ms
+2022-08-22 02:05:30,949 INFO 17154 [egg-watcher:application] watcher start success
+2022-08-22 02:05:30,949 INFO 17154 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:30,954 INFO 17154 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:33,602 INFO 17154 [egg-rpc] rpc server is closed
+2022-08-22 02:05:33,504 INFO 17158 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:33,524 INFO 17158 [egg-multipart] stream mode enable
+2022-08-22 02:05:33,575 INFO 17158 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:33,577 INFO 17158 [egg-security] use csrf middleware
+2022-08-22 02:05:33,577 INFO 17158 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:33,577 INFO 17158 [egg-security] use noopen middleware
+2022-08-22 02:05:33,578 INFO 17158 [egg-security] use nosniff middleware
+2022-08-22 02:05:33,578 INFO 17158 [egg-security] use xssProtection middleware
+2022-08-22 02:05:33,578 INFO 17158 [egg-security] use xframe middleware
+2022-08-22 02:05:33,578 INFO 17158 [egg-security] use dta middleware
+2022-08-22 02:05:33,579 INFO 17158 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:33,585 INFO 17158 [egg:core] dump config after load, 4ms
+2022-08-22 02:05:33,594 INFO 17158 [egg-watcher:application] watcher start success
+2022-08-22 02:05:33,594 INFO 17158 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:33,600 INFO 17158 [egg:core] dump config after ready, 5ms
+2022-08-22 02:05:41,635 INFO 17158 [egg-rpc] rpc server is closed
+2022-08-22 02:05:41,540 INFO 17162 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:41,559 INFO 17162 [egg-multipart] stream mode enable
+2022-08-22 02:05:41,609 INFO 17162 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:41,611 INFO 17162 [egg-security] use csrf middleware
+2022-08-22 02:05:41,611 INFO 17162 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:41,611 INFO 17162 [egg-security] use noopen middleware
+2022-08-22 02:05:41,612 INFO 17162 [egg-security] use nosniff middleware
+2022-08-22 02:05:41,612 INFO 17162 [egg-security] use xssProtection middleware
+2022-08-22 02:05:41,612 INFO 17162 [egg-security] use xframe middleware
+2022-08-22 02:05:41,612 INFO 17162 [egg-security] use dta middleware
+2022-08-22 02:05:41,612 INFO 17162 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:41,618 INFO 17162 [egg:core] dump config after load, 3ms
+2022-08-22 02:05:41,627 INFO 17162 [egg-watcher:application] watcher start success
+2022-08-22 02:05:41,628 INFO 17162 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:41,633 INFO 17162 [egg:core] dump config after ready, 4ms
+2022-08-22 02:05:47,904 INFO 17162 [egg-rpc] rpc server is closed
+2022-08-22 02:05:47,806 INFO 17166 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:05:47,826 INFO 17166 [egg-multipart] stream mode enable
+2022-08-22 02:05:47,878 INFO 17166 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:05:47,879 INFO 17166 [egg-security] use csrf middleware
+2022-08-22 02:05:47,880 INFO 17166 [egg-security] use methodnoallow middleware
+2022-08-22 02:05:47,880 INFO 17166 [egg-security] use noopen middleware
+2022-08-22 02:05:47,880 INFO 17166 [egg-security] use nosniff middleware
+2022-08-22 02:05:47,881 INFO 17166 [egg-security] use xssProtection middleware
+2022-08-22 02:05:47,881 INFO 17166 [egg-security] use xframe middleware
+2022-08-22 02:05:47,881 INFO 17166 [egg-security] use dta middleware
+2022-08-22 02:05:47,881 INFO 17166 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:05:47,888 INFO 17166 [egg:core] dump config after load, 5ms
+2022-08-22 02:05:47,896 INFO 17166 [egg-watcher:application] watcher start success
+2022-08-22 02:05:47,897 INFO 17166 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:05:47,902 INFO 17166 [egg:core] dump config after ready, 4ms
+2022-08-22 02:06:17,011 INFO 17166 [egg-rpc] rpc server is closed
+2022-08-22 02:06:16,909 INFO 17189 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:06:16,930 INFO 17189 [egg-multipart] stream mode enable
+2022-08-22 02:06:16,984 INFO 17189 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:06:16,985 INFO 17189 [egg-security] use csrf middleware
+2022-08-22 02:06:16,986 INFO 17189 [egg-security] use methodnoallow middleware
+2022-08-22 02:06:16,986 INFO 17189 [egg-security] use noopen middleware
+2022-08-22 02:06:16,987 INFO 17189 [egg-security] use nosniff middleware
+2022-08-22 02:06:16,987 INFO 17189 [egg-security] use xssProtection middleware
+2022-08-22 02:06:16,987 INFO 17189 [egg-security] use xframe middleware
+2022-08-22 02:06:16,988 INFO 17189 [egg-security] use dta middleware
+2022-08-22 02:06:16,988 INFO 17189 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:06:16,994 INFO 17189 [egg:core] dump config after load, 4ms
+2022-08-22 02:06:17,003 INFO 17189 [egg-watcher:application] watcher start success
+2022-08-22 02:06:17,003 INFO 17189 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:06:17,009 INFO 17189 [egg:core] dump config after ready, 4ms
+2022-08-22 02:06:22,056 INFO 17189 [egg-rpc] rpc server is closed
+2022-08-22 02:06:21,960 INFO 17196 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:06:21,979 INFO 17196 [egg-multipart] stream mode enable
+2022-08-22 02:06:22,029 INFO 17196 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:06:22,030 INFO 17196 [egg-security] use csrf middleware
+2022-08-22 02:06:22,031 INFO 17196 [egg-security] use methodnoallow middleware
+2022-08-22 02:06:22,031 INFO 17196 [egg-security] use noopen middleware
+2022-08-22 02:06:22,031 INFO 17196 [egg-security] use nosniff middleware
+2022-08-22 02:06:22,032 INFO 17196 [egg-security] use xssProtection middleware
+2022-08-22 02:06:22,032 INFO 17196 [egg-security] use xframe middleware
+2022-08-22 02:06:22,032 INFO 17196 [egg-security] use dta middleware
+2022-08-22 02:06:22,032 INFO 17196 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:06:22,038 INFO 17196 [egg:core] dump config after load, 3ms
+2022-08-22 02:06:22,048 INFO 17196 [egg-watcher:application] watcher start success
+2022-08-22 02:06:22,048 INFO 17196 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:06:22,053 INFO 17196 [egg:core] dump config after ready, 4ms
+2022-08-22 02:08:10,156 INFO 17196 [egg-rpc] rpc server is closed
+2022-08-22 02:08:09,859 INFO 17231 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:08:09,887 INFO 17231 [egg-multipart] stream mode enable
+2022-08-22 02:08:10,015 INFO 17231 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:08:10,018 INFO 17231 [egg-security] use csrf middleware
+2022-08-22 02:08:10,019 INFO 17231 [egg-security] use methodnoallow middleware
+2022-08-22 02:08:10,020 INFO 17231 [egg-security] use noopen middleware
+2022-08-22 02:08:10,021 INFO 17231 [egg-security] use nosniff middleware
+2022-08-22 02:08:10,022 INFO 17231 [egg-security] use xssProtection middleware
+2022-08-22 02:08:10,023 INFO 17231 [egg-security] use xframe middleware
+2022-08-22 02:08:10,023 INFO 17231 [egg-security] use dta middleware
+2022-08-22 02:08:10,024 INFO 17231 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:08:10,034 INFO 17231 [egg:core] dump config after load, 6ms
+2022-08-22 02:08:10,044 INFO 17231 [egg-watcher:application] watcher start success
+2022-08-22 02:08:10,045 INFO 17231 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:08:10,052 INFO 17231 [egg:core] dump config after ready, 6ms
+2022-08-22 02:08:35,780 INFO 17231 [egg-rpc] rpc server is closed
+2022-08-22 02:08:35,585 INFO 17246 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:08:35,613 INFO 17246 [egg-multipart] stream mode enable
+2022-08-22 02:08:35,735 INFO 17246 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:08:35,739 INFO 17246 [egg-security] use csrf middleware
+2022-08-22 02:08:35,740 INFO 17246 [egg-security] use methodnoallow middleware
+2022-08-22 02:08:35,741 INFO 17246 [egg-security] use noopen middleware
+2022-08-22 02:08:35,743 INFO 17246 [egg-security] use nosniff middleware
+2022-08-22 02:08:35,744 INFO 17246 [egg-security] use xssProtection middleware
+2022-08-22 02:08:35,745 INFO 17246 [egg-security] use xframe middleware
+2022-08-22 02:08:35,746 INFO 17246 [egg-security] use dta middleware
+2022-08-22 02:08:35,747 INFO 17246 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:08:35,758 INFO 17246 [egg:core] dump config after load, 6ms
+2022-08-22 02:08:35,770 INFO 17246 [egg-watcher:application] watcher start success
+2022-08-22 02:08:35,771 INFO 17246 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:08:35,777 INFO 17246 [egg:core] dump config after ready, 5ms
+2022-08-22 02:09:05,652 INFO 17261 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:09:05,670 INFO 17261 [egg-multipart] stream mode enable
+2022-08-22 02:09:05,719 INFO 17261 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:09:05,720 INFO 17261 [egg-security] use csrf middleware
+2022-08-22 02:09:05,721 INFO 17261 [egg-security] use methodnoallow middleware
+2022-08-22 02:09:05,721 INFO 17261 [egg-security] use noopen middleware
+2022-08-22 02:09:05,721 INFO 17261 [egg-security] use nosniff middleware
+2022-08-22 02:09:05,721 INFO 17261 [egg-security] use xssProtection middleware
+2022-08-22 02:09:05,722 INFO 17261 [egg-security] use xframe middleware
+2022-08-22 02:09:05,722 INFO 17261 [egg-security] use dta middleware
+2022-08-22 02:09:05,722 INFO 17261 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:09:05,730 INFO 17261 [egg:core] dump config after load, 6ms
+2022-08-22 02:09:05,742 INFO 17261 [egg-watcher:application] watcher start success
+2022-08-22 02:09:05,742 INFO 17261 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:09:05,749 INFO 17261 [egg:core] dump config after ready, 5ms
+2022-08-22 02:09:36,444 INFO 17261 [egg-rpc] rpc server is closed
+2022-08-22 02:09:36,245 INFO 17270 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:09:36,271 INFO 17270 [egg-multipart] stream mode enable
+2022-08-22 02:09:36,402 INFO 17270 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:09:36,405 INFO 17270 [egg-security] use csrf middleware
+2022-08-22 02:09:36,406 INFO 17270 [egg-security] use methodnoallow middleware
+2022-08-22 02:09:36,407 INFO 17270 [egg-security] use noopen middleware
+2022-08-22 02:09:36,408 INFO 17270 [egg-security] use nosniff middleware
+2022-08-22 02:09:36,409 INFO 17270 [egg-security] use xssProtection middleware
+2022-08-22 02:09:36,410 INFO 17270 [egg-security] use xframe middleware
+2022-08-22 02:09:36,411 INFO 17270 [egg-security] use dta middleware
+2022-08-22 02:09:36,411 INFO 17270 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:09:36,421 INFO 17270 [egg:core] dump config after load, 6ms
+2022-08-22 02:09:36,432 INFO 17270 [egg-watcher:application] watcher start success
+2022-08-22 02:09:36,432 INFO 17270 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:09:36,439 INFO 17270 [egg:core] dump config after ready, 5ms
+2022-08-22 02:11:05,838 INFO 17270 [egg-rpc] rpc server is closed
+2022-08-22 02:11:05,566 INFO 17308 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:11:05,594 INFO 17308 [egg-multipart] stream mode enable
+2022-08-22 02:11:05,706 INFO 17308 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:11:05,708 INFO 17308 [egg-security] use csrf middleware
+2022-08-22 02:11:05,709 INFO 17308 [egg-security] use methodnoallow middleware
+2022-08-22 02:11:05,710 INFO 17308 [egg-security] use noopen middleware
+2022-08-22 02:11:05,711 INFO 17308 [egg-security] use nosniff middleware
+2022-08-22 02:11:05,711 INFO 17308 [egg-security] use xssProtection middleware
+2022-08-22 02:11:05,712 INFO 17308 [egg-security] use xframe middleware
+2022-08-22 02:11:05,713 INFO 17308 [egg-security] use dta middleware
+2022-08-22 02:11:05,713 INFO 17308 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:11:05,720 INFO 17308 [egg:core] dump config after load, 4ms
+2022-08-22 02:11:05,729 INFO 17308 [egg-watcher:application] watcher start success
+2022-08-22 02:11:05,729 INFO 17308 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:11:05,735 INFO 17308 [egg:core] dump config after ready, 3ms
+2022-08-22 02:11:53,539 INFO 17308 [egg-rpc] rpc server is closed
+2022-08-22 02:11:53,242 INFO 17321 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:11:53,272 INFO 17321 [egg-multipart] stream mode enable
+2022-08-22 02:11:53,399 INFO 17321 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:11:53,402 INFO 17321 [egg-security] use csrf middleware
+2022-08-22 02:11:53,403 INFO 17321 [egg-security] use methodnoallow middleware
+2022-08-22 02:11:53,404 INFO 17321 [egg-security] use noopen middleware
+2022-08-22 02:11:53,405 INFO 17321 [egg-security] use nosniff middleware
+2022-08-22 02:11:53,406 INFO 17321 [egg-security] use xssProtection middleware
+2022-08-22 02:11:53,408 INFO 17321 [egg-security] use xframe middleware
+2022-08-22 02:11:53,409 INFO 17321 [egg-security] use dta middleware
+2022-08-22 02:11:53,409 INFO 17321 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:11:53,420 INFO 17321 [egg:core] dump config after load, 5ms
+2022-08-22 02:11:53,430 INFO 17321 [egg-watcher:application] watcher start success
+2022-08-22 02:11:53,431 INFO 17321 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:11:53,437 INFO 17321 [egg:core] dump config after ready, 5ms
+2022-08-22 02:11:55,034 INFO 17321 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:12:32,023 INFO 17321 [egg-rpc] rpc server is closed
+2022-08-22 02:12:31,820 INFO 17336 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:12:31,840 INFO 17336 [egg-multipart] stream mode enable
+2022-08-22 02:12:31,894 INFO 17336 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:12:31,895 INFO 17336 [egg-security] use csrf middleware
+2022-08-22 02:12:31,896 INFO 17336 [egg-security] use methodnoallow middleware
+2022-08-22 02:12:31,896 INFO 17336 [egg-security] use noopen middleware
+2022-08-22 02:12:31,896 INFO 17336 [egg-security] use nosniff middleware
+2022-08-22 02:12:31,896 INFO 17336 [egg-security] use xssProtection middleware
+2022-08-22 02:12:31,897 INFO 17336 [egg-security] use xframe middleware
+2022-08-22 02:12:31,897 INFO 17336 [egg-security] use dta middleware
+2022-08-22 02:12:31,897 INFO 17336 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:12:31,904 INFO 17336 [egg:core] dump config after load, 3ms
+2022-08-22 02:12:31,912 INFO 17336 [egg-watcher:application] watcher start success
+2022-08-22 02:12:31,913 INFO 17336 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:12:31,918 INFO 17336 [egg:core] dump config after ready, 4ms
+2022-08-22 02:12:39,867 INFO 17336 [egg-rpc] rpc server is closed
+2022-08-22 02:12:39,756 INFO 17345 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:12:39,776 INFO 17345 [egg-multipart] stream mode enable
+2022-08-22 02:12:39,838 INFO 17345 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:12:39,840 INFO 17345 [egg-security] use csrf middleware
+2022-08-22 02:12:39,840 INFO 17345 [egg-security] use methodnoallow middleware
+2022-08-22 02:12:39,841 INFO 17345 [egg-security] use noopen middleware
+2022-08-22 02:12:39,841 INFO 17345 [egg-security] use nosniff middleware
+2022-08-22 02:12:39,842 INFO 17345 [egg-security] use xssProtection middleware
+2022-08-22 02:12:39,842 INFO 17345 [egg-security] use xframe middleware
+2022-08-22 02:12:39,842 INFO 17345 [egg-security] use dta middleware
+2022-08-22 02:12:39,842 INFO 17345 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:12:39,848 INFO 17345 [egg:core] dump config after load, 3ms
+2022-08-22 02:12:39,858 INFO 17345 [egg-watcher:application] watcher start success
+2022-08-22 02:12:39,859 INFO 17345 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:12:39,864 INFO 17345 [egg:core] dump config after ready, 5ms
+2022-08-22 02:12:40,455 INFO 17345 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:13:04,949 INFO 17345 [egg-rpc] rpc server is closed
+2022-08-22 02:13:04,641 INFO 17353 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:13:04,675 INFO 17353 [egg-multipart] stream mode enable
+2022-08-22 02:13:04,810 INFO 17353 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:13:04,812 INFO 17353 [egg-security] use csrf middleware
+2022-08-22 02:13:04,813 INFO 17353 [egg-security] use methodnoallow middleware
+2022-08-22 02:13:04,815 INFO 17353 [egg-security] use noopen middleware
+2022-08-22 02:13:04,816 INFO 17353 [egg-security] use nosniff middleware
+2022-08-22 02:13:04,817 INFO 17353 [egg-security] use xssProtection middleware
+2022-08-22 02:13:04,818 INFO 17353 [egg-security] use xframe middleware
+2022-08-22 02:13:04,819 INFO 17353 [egg-security] use dta middleware
+2022-08-22 02:13:04,819 INFO 17353 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:13:04,829 INFO 17353 [egg:core] dump config after load, 5ms
+2022-08-22 02:13:04,838 INFO 17353 [egg-watcher:application] watcher start success
+2022-08-22 02:13:04,839 INFO 17353 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:13:04,844 INFO 17353 [egg:core] dump config after ready, 4ms
+2022-08-22 02:13:10,785 INFO 17353 [egg-rpc] rpc server is closed
+2022-08-22 02:13:10,661 INFO 17359 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:13:10,684 INFO 17359 [egg-multipart] stream mode enable
+2022-08-22 02:13:10,751 INFO 17359 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:13:10,752 INFO 17359 [egg-security] use csrf middleware
+2022-08-22 02:13:10,753 INFO 17359 [egg-security] use methodnoallow middleware
+2022-08-22 02:13:10,753 INFO 17359 [egg-security] use noopen middleware
+2022-08-22 02:13:10,753 INFO 17359 [egg-security] use nosniff middleware
+2022-08-22 02:13:10,754 INFO 17359 [egg-security] use xssProtection middleware
+2022-08-22 02:13:10,754 INFO 17359 [egg-security] use xframe middleware
+2022-08-22 02:13:10,754 INFO 17359 [egg-security] use dta middleware
+2022-08-22 02:13:10,754 INFO 17359 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:13:10,763 INFO 17359 [egg:core] dump config after load, 4ms
+2022-08-22 02:13:10,774 INFO 17359 [egg-watcher:application] watcher start success
+2022-08-22 02:13:10,775 INFO 17359 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:13:10,781 INFO 17359 [egg:core] dump config after ready, 4ms
+2022-08-22 02:14:59,707 INFO 17359 [egg-rpc] rpc server is closed
+2022-08-22 02:14:59,479 INFO 17385 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:14:59,516 INFO 17385 [egg-multipart] stream mode enable
+2022-08-22 02:14:59,665 INFO 17385 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:14:59,667 INFO 17385 [egg-security] use csrf middleware
+2022-08-22 02:14:59,668 INFO 17385 [egg-security] use methodnoallow middleware
+2022-08-22 02:14:59,669 INFO 17385 [egg-security] use noopen middleware
+2022-08-22 02:14:59,670 INFO 17385 [egg-security] use nosniff middleware
+2022-08-22 02:14:59,672 INFO 17385 [egg-security] use xssProtection middleware
+2022-08-22 02:14:59,673 INFO 17385 [egg-security] use xframe middleware
+2022-08-22 02:14:59,673 INFO 17385 [egg-security] use dta middleware
+2022-08-22 02:14:59,674 INFO 17385 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:14:59,684 INFO 17385 [egg:core] dump config after load, 7ms
+2022-08-22 02:14:59,698 INFO 17385 [egg-watcher:application] watcher start success
+2022-08-22 02:14:59,699 INFO 17385 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:14:59,705 INFO 17385 [egg:core] dump config after ready, 5ms
+2022-08-22 02:16:49,292 INFO 17385 [egg-rpc] rpc server is closed
+2022-08-22 02:16:49,080 INFO 17441 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:16:49,111 INFO 17441 [egg-multipart] stream mode enable
+2022-08-22 02:16:49,257 INFO 17441 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:16:49,259 INFO 17441 [egg-security] use csrf middleware
+2022-08-22 02:16:49,260 INFO 17441 [egg-security] use methodnoallow middleware
+2022-08-22 02:16:49,260 INFO 17441 [egg-security] use noopen middleware
+2022-08-22 02:16:49,261 INFO 17441 [egg-security] use nosniff middleware
+2022-08-22 02:16:49,262 INFO 17441 [egg-security] use xssProtection middleware
+2022-08-22 02:16:49,263 INFO 17441 [egg-security] use xframe middleware
+2022-08-22 02:16:49,264 INFO 17441 [egg-security] use dta middleware
+2022-08-22 02:16:49,264 INFO 17441 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:16:49,273 INFO 17441 [egg:core] dump config after load, 5ms
+2022-08-22 02:16:49,283 INFO 17441 [egg-watcher:application] watcher start success
+2022-08-22 02:16:49,284 INFO 17441 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:16:49,290 INFO 17441 [egg:core] dump config after ready, 5ms
+2022-08-22 02:16:57,087 INFO 17441 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:26:29,683 INFO 17441 [egg-rpc] rpc server is closed
+2022-08-22 02:26:29,329 INFO 17616 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:26:29,361 INFO 17616 [egg-multipart] stream mode enable
+2022-08-22 02:26:29,516 INFO 17616 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:26:29,518 INFO 17616 [egg-security] use csrf middleware
+2022-08-22 02:26:29,519 INFO 17616 [egg-security] use methodnoallow middleware
+2022-08-22 02:26:29,520 INFO 17616 [egg-security] use noopen middleware
+2022-08-22 02:26:29,521 INFO 17616 [egg-security] use nosniff middleware
+2022-08-22 02:26:29,523 INFO 17616 [egg-security] use xssProtection middleware
+2022-08-22 02:26:29,524 INFO 17616 [egg-security] use xframe middleware
+2022-08-22 02:26:29,525 INFO 17616 [egg-security] use dta middleware
+2022-08-22 02:26:29,525 INFO 17616 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:26:29,539 INFO 17616 [egg:core] dump config after load, 8ms
+2022-08-22 02:26:29,549 INFO 17616 [egg-watcher:application] watcher start success
+2022-08-22 02:26:29,550 INFO 17616 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:26:29,572 INFO 17616 [egg:core] dump config after ready, 21ms
+2022-08-22 02:26:33,385 INFO 17616 [egg-rpc] rpc server is closed
+2022-08-22 02:26:33,286 INFO 17622 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:26:33,306 INFO 17622 [egg-multipart] stream mode enable
+2022-08-22 02:26:33,359 INFO 17622 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:26:33,360 INFO 17622 [egg-security] use csrf middleware
+2022-08-22 02:26:33,361 INFO 17622 [egg-security] use methodnoallow middleware
+2022-08-22 02:26:33,361 INFO 17622 [egg-security] use noopen middleware
+2022-08-22 02:26:33,361 INFO 17622 [egg-security] use nosniff middleware
+2022-08-22 02:26:33,362 INFO 17622 [egg-security] use xssProtection middleware
+2022-08-22 02:26:33,362 INFO 17622 [egg-security] use xframe middleware
+2022-08-22 02:26:33,362 INFO 17622 [egg-security] use dta middleware
+2022-08-22 02:26:33,362 INFO 17622 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:26:33,368 INFO 17622 [egg:core] dump config after load, 3ms
+2022-08-22 02:26:33,377 INFO 17622 [egg-watcher:application] watcher start success
+2022-08-22 02:26:33,377 INFO 17622 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:26:33,382 INFO 17622 [egg:core] dump config after ready, 4ms
+2022-08-22 02:26:36,468 INFO 17622 [egg-rpc] rpc server is closed
+2022-08-22 02:26:36,366 INFO 17626 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:26:36,386 INFO 17626 [egg-multipart] stream mode enable
+2022-08-22 02:26:36,440 INFO 17626 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:26:36,442 INFO 17626 [egg-security] use csrf middleware
+2022-08-22 02:26:36,443 INFO 17626 [egg-security] use methodnoallow middleware
+2022-08-22 02:26:36,443 INFO 17626 [egg-security] use noopen middleware
+2022-08-22 02:26:36,443 INFO 17626 [egg-security] use nosniff middleware
+2022-08-22 02:26:36,444 INFO 17626 [egg-security] use xssProtection middleware
+2022-08-22 02:26:36,444 INFO 17626 [egg-security] use xframe middleware
+2022-08-22 02:26:36,444 INFO 17626 [egg-security] use dta middleware
+2022-08-22 02:26:36,444 INFO 17626 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:26:36,451 INFO 17626 [egg:core] dump config after load, 4ms
+2022-08-22 02:26:36,459 INFO 17626 [egg-watcher:application] watcher start success
+2022-08-22 02:26:36,460 INFO 17626 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:26:36,465 INFO 17626 [egg:core] dump config after ready, 4ms
+2022-08-22 02:26:39,165 INFO 17626 [egg-rpc] rpc server is closed
+2022-08-22 02:26:39,069 INFO 17630 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:26:39,088 INFO 17630 [egg-multipart] stream mode enable
+2022-08-22 02:26:39,138 INFO 17630 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:26:39,140 INFO 17630 [egg-security] use csrf middleware
+2022-08-22 02:26:39,140 INFO 17630 [egg-security] use methodnoallow middleware
+2022-08-22 02:26:39,141 INFO 17630 [egg-security] use noopen middleware
+2022-08-22 02:26:39,141 INFO 17630 [egg-security] use nosniff middleware
+2022-08-22 02:26:39,141 INFO 17630 [egg-security] use xssProtection middleware
+2022-08-22 02:26:39,141 INFO 17630 [egg-security] use xframe middleware
+2022-08-22 02:26:39,142 INFO 17630 [egg-security] use dta middleware
+2022-08-22 02:26:39,142 INFO 17630 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:26:39,148 INFO 17630 [egg:core] dump config after load, 4ms
+2022-08-22 02:26:39,156 INFO 17630 [egg-watcher:application] watcher start success
+2022-08-22 02:26:39,157 INFO 17630 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:26:39,162 INFO 17630 [egg:core] dump config after ready, 4ms
+2022-08-22 02:27:00,208 INFO 17630 [egg-rpc] rpc server is closed
+2022-08-22 02:27:00,108 INFO 17643 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:27:00,128 INFO 17643 [egg-multipart] stream mode enable
+2022-08-22 02:27:00,180 INFO 17643 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:27:00,182 INFO 17643 [egg-security] use csrf middleware
+2022-08-22 02:27:00,182 INFO 17643 [egg-security] use methodnoallow middleware
+2022-08-22 02:27:00,182 INFO 17643 [egg-security] use noopen middleware
+2022-08-22 02:27:00,183 INFO 17643 [egg-security] use nosniff middleware
+2022-08-22 02:27:00,183 INFO 17643 [egg-security] use xssProtection middleware
+2022-08-22 02:27:00,183 INFO 17643 [egg-security] use xframe middleware
+2022-08-22 02:27:00,184 INFO 17643 [egg-security] use dta middleware
+2022-08-22 02:27:00,184 INFO 17643 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:27:00,191 INFO 17643 [egg:core] dump config after load, 4ms
+2022-08-22 02:27:00,199 INFO 17643 [egg-watcher:application] watcher start success
+2022-08-22 02:27:00,200 INFO 17643 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:27:00,205 INFO 17643 [egg:core] dump config after ready, 4ms
+2022-08-22 02:27:04,337 INFO 17643 [egg-rpc] rpc server is closed
+2022-08-22 02:27:04,238 INFO 17647 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:27:04,257 INFO 17647 [egg-multipart] stream mode enable
+2022-08-22 02:27:04,310 INFO 17647 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:27:04,311 INFO 17647 [egg-security] use csrf middleware
+2022-08-22 02:27:04,312 INFO 17647 [egg-security] use methodnoallow middleware
+2022-08-22 02:27:04,312 INFO 17647 [egg-security] use noopen middleware
+2022-08-22 02:27:04,313 INFO 17647 [egg-security] use nosniff middleware
+2022-08-22 02:27:04,313 INFO 17647 [egg-security] use xssProtection middleware
+2022-08-22 02:27:04,313 INFO 17647 [egg-security] use xframe middleware
+2022-08-22 02:27:04,313 INFO 17647 [egg-security] use dta middleware
+2022-08-22 02:27:04,313 INFO 17647 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:27:04,320 INFO 17647 [egg:core] dump config after load, 4ms
+2022-08-22 02:27:04,329 INFO 17647 [egg-watcher:application] watcher start success
+2022-08-22 02:27:04,330 INFO 17647 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:27:04,335 INFO 17647 [egg:core] dump config after ready, 4ms
+2022-08-22 02:27:11,178 INFO 17647 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:28:34,466 INFO 17647 [egg-rpc] rpc server is closed
+2022-08-22 02:28:34,243 INFO 17679 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:28:34,266 INFO 17679 [egg-multipart] stream mode enable
+2022-08-22 02:28:34,332 INFO 17679 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:28:34,334 INFO 17679 [egg-security] use csrf middleware
+2022-08-22 02:28:34,335 INFO 17679 [egg-security] use methodnoallow middleware
+2022-08-22 02:28:34,335 INFO 17679 [egg-security] use noopen middleware
+2022-08-22 02:28:34,335 INFO 17679 [egg-security] use nosniff middleware
+2022-08-22 02:28:34,336 INFO 17679 [egg-security] use xssProtection middleware
+2022-08-22 02:28:34,336 INFO 17679 [egg-security] use xframe middleware
+2022-08-22 02:28:34,336 INFO 17679 [egg-security] use dta middleware
+2022-08-22 02:28:34,336 INFO 17679 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:28:34,344 INFO 17679 [egg:core] dump config after load, 5ms
+2022-08-22 02:28:34,355 INFO 17679 [egg-watcher:application] watcher start success
+2022-08-22 02:28:34,356 INFO 17679 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:28:34,362 INFO 17679 [egg:core] dump config after ready, 5ms
+2022-08-22 02:28:36,983 INFO 17679 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:30:06,583 INFO 17679 [egg-rpc] rpc server is closed
+2022-08-22 02:30:06,230 INFO 17697 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:30:06,268 INFO 17697 [egg-multipart] stream mode enable
+2022-08-22 02:30:06,441 INFO 17697 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:30:06,444 INFO 17697 [egg-security] use csrf middleware
+2022-08-22 02:30:06,446 INFO 17697 [egg-security] use methodnoallow middleware
+2022-08-22 02:30:06,447 INFO 17697 [egg-security] use noopen middleware
+2022-08-22 02:30:06,449 INFO 17697 [egg-security] use nosniff middleware
+2022-08-22 02:30:06,450 INFO 17697 [egg-security] use xssProtection middleware
+2022-08-22 02:30:06,451 INFO 17697 [egg-security] use xframe middleware
+2022-08-22 02:30:06,452 INFO 17697 [egg-security] use dta middleware
+2022-08-22 02:30:06,452 INFO 17697 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:30:06,462 INFO 17697 [egg:core] dump config after load, 5ms
+2022-08-22 02:30:06,471 INFO 17697 [egg-watcher:application] watcher start success
+2022-08-22 02:30:06,472 INFO 17697 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:30:06,478 INFO 17697 [egg:core] dump config after ready, 5ms
+2022-08-22 02:30:14,132 INFO 17697 [egg-rpc] rpc server is closed
+2022-08-22 02:30:14,032 INFO 17706 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:30:14,052 INFO 17706 [egg-multipart] stream mode enable
+2022-08-22 02:30:14,105 INFO 17706 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:30:14,106 INFO 17706 [egg-security] use csrf middleware
+2022-08-22 02:30:14,106 INFO 17706 [egg-security] use methodnoallow middleware
+2022-08-22 02:30:14,107 INFO 17706 [egg-security] use noopen middleware
+2022-08-22 02:30:14,107 INFO 17706 [egg-security] use nosniff middleware
+2022-08-22 02:30:14,107 INFO 17706 [egg-security] use xssProtection middleware
+2022-08-22 02:30:14,108 INFO 17706 [egg-security] use xframe middleware
+2022-08-22 02:30:14,108 INFO 17706 [egg-security] use dta middleware
+2022-08-22 02:30:14,108 INFO 17706 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:30:14,114 INFO 17706 [egg:core] dump config after load, 4ms
+2022-08-22 02:30:14,123 INFO 17706 [egg-watcher:application] watcher start success
+2022-08-22 02:30:14,124 INFO 17706 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:30:14,129 INFO 17706 [egg:core] dump config after ready, 4ms
+2022-08-22 02:30:15,873 INFO 17706 [egg-rpc] rpc server is closed
+2022-08-22 02:30:15,779 INFO 17710 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:30:15,798 INFO 17710 [egg-multipart] stream mode enable
+2022-08-22 02:30:15,847 INFO 17710 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:30:15,849 INFO 17710 [egg-security] use csrf middleware
+2022-08-22 02:30:15,849 INFO 17710 [egg-security] use methodnoallow middleware
+2022-08-22 02:30:15,850 INFO 17710 [egg-security] use noopen middleware
+2022-08-22 02:30:15,850 INFO 17710 [egg-security] use nosniff middleware
+2022-08-22 02:30:15,850 INFO 17710 [egg-security] use xssProtection middleware
+2022-08-22 02:30:15,851 INFO 17710 [egg-security] use xframe middleware
+2022-08-22 02:30:15,851 INFO 17710 [egg-security] use dta middleware
+2022-08-22 02:30:15,851 INFO 17710 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:30:15,857 INFO 17710 [egg:core] dump config after load, 4ms
+2022-08-22 02:30:15,865 INFO 17710 [egg-watcher:application] watcher start success
+2022-08-22 02:30:15,866 INFO 17710 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:30:15,871 INFO 17710 [egg:core] dump config after ready, 4ms
+2022-08-22 02:30:28,315 INFO 17710 [egg-rpc] rpc server is closed
+2022-08-22 02:30:28,218 INFO 17720 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:30:28,238 INFO 17720 [egg-multipart] stream mode enable
+2022-08-22 02:30:28,288 INFO 17720 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:30:28,290 INFO 17720 [egg-security] use csrf middleware
+2022-08-22 02:30:28,290 INFO 17720 [egg-security] use methodnoallow middleware
+2022-08-22 02:30:28,291 INFO 17720 [egg-security] use noopen middleware
+2022-08-22 02:30:28,291 INFO 17720 [egg-security] use nosniff middleware
+2022-08-22 02:30:28,291 INFO 17720 [egg-security] use xssProtection middleware
+2022-08-22 02:30:28,292 INFO 17720 [egg-security] use xframe middleware
+2022-08-22 02:30:28,292 INFO 17720 [egg-security] use dta middleware
+2022-08-22 02:30:28,292 INFO 17720 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:30:28,298 INFO 17720 [egg:core] dump config after load, 4ms
+2022-08-22 02:30:28,307 INFO 17720 [egg-watcher:application] watcher start success
+2022-08-22 02:30:28,307 INFO 17720 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:30:28,313 INFO 17720 [egg:core] dump config after ready, 4ms
+2022-08-22 02:30:31,893 INFO 17720 [egg-rpc] rpc server is closed
+2022-08-22 02:30:31,801 INFO 17724 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:30:31,818 INFO 17724 [egg-multipart] stream mode enable
+2022-08-22 02:30:31,866 INFO 17724 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:30:31,867 INFO 17724 [egg-security] use csrf middleware
+2022-08-22 02:30:31,867 INFO 17724 [egg-security] use methodnoallow middleware
+2022-08-22 02:30:31,868 INFO 17724 [egg-security] use noopen middleware
+2022-08-22 02:30:31,868 INFO 17724 [egg-security] use nosniff middleware
+2022-08-22 02:30:31,868 INFO 17724 [egg-security] use xssProtection middleware
+2022-08-22 02:30:31,869 INFO 17724 [egg-security] use xframe middleware
+2022-08-22 02:30:31,869 INFO 17724 [egg-security] use dta middleware
+2022-08-22 02:30:31,869 INFO 17724 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:30:31,875 INFO 17724 [egg:core] dump config after load, 4ms
+2022-08-22 02:30:31,884 INFO 17724 [egg-watcher:application] watcher start success
+2022-08-22 02:30:31,885 INFO 17724 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:30:31,890 INFO 17724 [egg:core] dump config after ready, 4ms
+2022-08-22 02:30:35,689 INFO 17724 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 02:58:23,502 INFO 17724 [egg-rpc] rpc server is closed
+2022-08-22 02:58:30,785 INFO 18156 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 02:58:30,808 INFO 18156 [egg-multipart] stream mode enable
+2022-08-22 02:58:30,911 INFO 18156 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 02:58:30,913 INFO 18156 [egg-security] use csrf middleware
+2022-08-22 02:58:30,914 INFO 18156 [egg-security] use methodnoallow middleware
+2022-08-22 02:58:30,915 INFO 18156 [egg-security] use noopen middleware
+2022-08-22 02:58:30,915 INFO 18156 [egg-security] use nosniff middleware
+2022-08-22 02:58:30,916 INFO 18156 [egg-security] use xssProtection middleware
+2022-08-22 02:58:30,917 INFO 18156 [egg-security] use xframe middleware
+2022-08-22 02:58:30,917 INFO 18156 [egg-security] use dta middleware
+2022-08-22 02:58:30,917 INFO 18156 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 02:58:30,925 INFO 18156 [egg:core] dump config after load, 5ms
+2022-08-22 02:58:30,934 INFO 18156 [egg-watcher:application] watcher start success
+2022-08-22 02:58:30,935 INFO 18156 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 02:58:30,940 INFO 18156 [egg:core] dump config after ready, 4ms
+2022-08-22 02:58:32,195 INFO 18156 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 03:02:21,120 INFO 18156 [egg-rpc] rpc server is closed
+2022-08-22 03:02:20,825 INFO 18207 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 03:02:20,854 INFO 18207 [egg-multipart] stream mode enable
+2022-08-22 03:02:20,973 INFO 18207 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 03:02:20,975 INFO 18207 [egg-security] use csrf middleware
+2022-08-22 03:02:20,977 INFO 18207 [egg-security] use methodnoallow middleware
+2022-08-22 03:02:20,978 INFO 18207 [egg-security] use noopen middleware
+2022-08-22 03:02:20,979 INFO 18207 [egg-security] use nosniff middleware
+2022-08-22 03:02:20,980 INFO 18207 [egg-security] use xssProtection middleware
+2022-08-22 03:02:20,981 INFO 18207 [egg-security] use xframe middleware
+2022-08-22 03:02:20,982 INFO 18207 [egg-security] use dta middleware
+2022-08-22 03:02:20,982 INFO 18207 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 03:02:20,992 INFO 18207 [egg:core] dump config after load, 5ms
+2022-08-22 03:02:21,006 INFO 18207 [egg-watcher:application] watcher start success
+2022-08-22 03:02:21,006 INFO 18207 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 03:02:21,013 INFO 18207 [egg:core] dump config after ready, 5ms
+2022-08-22 03:02:28,512 INFO 18207 [egg-rpc] rpc server is closed
+2022-08-22 03:02:28,281 INFO 18219 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 03:02:28,318 INFO 18219 [egg-multipart] stream mode enable
+2022-08-22 03:02:28,477 INFO 18219 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 03:02:28,479 INFO 18219 [egg-security] use csrf middleware
+2022-08-22 03:02:28,480 INFO 18219 [egg-security] use methodnoallow middleware
+2022-08-22 03:02:28,481 INFO 18219 [egg-security] use noopen middleware
+2022-08-22 03:02:28,481 INFO 18219 [egg-security] use nosniff middleware
+2022-08-22 03:02:28,482 INFO 18219 [egg-security] use xssProtection middleware
+2022-08-22 03:02:28,483 INFO 18219 [egg-security] use xframe middleware
+2022-08-22 03:02:28,483 INFO 18219 [egg-security] use dta middleware
+2022-08-22 03:02:28,483 INFO 18219 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 03:02:28,491 INFO 18219 [egg:core] dump config after load, 4ms
+2022-08-22 03:02:28,501 INFO 18219 [egg-watcher:application] watcher start success
+2022-08-22 03:02:28,502 INFO 18219 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 03:02:28,507 INFO 18219 [egg:core] dump config after ready, 4ms
+2022-08-22 03:02:35,511 INFO 18219 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 03:04:58,847 INFO 18219 [egg-rpc] rpc server is closed
+2022-08-22 03:04:58,641 INFO 18246 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 03:04:58,661 INFO 18246 [egg-multipart] stream mode enable
+2022-08-22 03:04:58,717 INFO 18246 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 03:04:58,719 INFO 18246 [egg-security] use csrf middleware
+2022-08-22 03:04:58,719 INFO 18246 [egg-security] use methodnoallow middleware
+2022-08-22 03:04:58,720 INFO 18246 [egg-security] use noopen middleware
+2022-08-22 03:04:58,720 INFO 18246 [egg-security] use nosniff middleware
+2022-08-22 03:04:58,720 INFO 18246 [egg-security] use xssProtection middleware
+2022-08-22 03:04:58,721 INFO 18246 [egg-security] use xframe middleware
+2022-08-22 03:04:58,721 INFO 18246 [egg-security] use dta middleware
+2022-08-22 03:04:58,721 INFO 18246 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 03:04:58,727 INFO 18246 [egg:core] dump config after load, 4ms
+2022-08-22 03:04:58,736 INFO 18246 [egg-watcher:application] watcher start success
+2022-08-22 03:04:58,737 INFO 18246 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 03:04:58,743 INFO 18246 [egg:core] dump config after ready, 5ms
+2022-08-22 03:05:00,330 INFO 18246 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 03:05:06,126 INFO 18246 [egg-rpc] rpc server is closed
+2022-08-22 03:05:05,921 INFO 18256 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 03:05:05,942 INFO 18256 [egg-multipart] stream mode enable
+2022-08-22 03:05:05,996 INFO 18256 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 03:05:05,998 INFO 18256 [egg-security] use csrf middleware
+2022-08-22 03:05:05,998 INFO 18256 [egg-security] use methodnoallow middleware
+2022-08-22 03:05:05,998 INFO 18256 [egg-security] use noopen middleware
+2022-08-22 03:05:05,999 INFO 18256 [egg-security] use nosniff middleware
+2022-08-22 03:05:05,999 INFO 18256 [egg-security] use xssProtection middleware
+2022-08-22 03:05:05,999 INFO 18256 [egg-security] use xframe middleware
+2022-08-22 03:05:05,999 INFO 18256 [egg-security] use dta middleware
+2022-08-22 03:05:05,999 INFO 18256 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 03:05:06,006 INFO 18256 [egg:core] dump config after load, 4ms
+2022-08-22 03:05:06,015 INFO 18256 [egg-watcher:application] watcher start success
+2022-08-22 03:05:06,016 INFO 18256 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 03:05:06,021 INFO 18256 [egg:core] dump config after ready, 4ms
+2022-08-22 03:05:22,009 INFO 18256 [egg-rpc] rpc server is closed
+2022-08-22 03:05:21,741 INFO 18263 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 03:05:21,767 INFO 18263 [egg-multipart] stream mode enable
+2022-08-22 03:05:21,865 INFO 18263 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 03:05:21,867 INFO 18263 [egg-security] use csrf middleware
+2022-08-22 03:05:21,868 INFO 18263 [egg-security] use methodnoallow middleware
+2022-08-22 03:05:21,870 INFO 18263 [egg-security] use noopen middleware
+2022-08-22 03:05:21,871 INFO 18263 [egg-security] use nosniff middleware
+2022-08-22 03:05:21,873 INFO 18263 [egg-security] use xssProtection middleware
+2022-08-22 03:05:21,874 INFO 18263 [egg-security] use xframe middleware
+2022-08-22 03:05:21,875 INFO 18263 [egg-security] use dta middleware
+2022-08-22 03:05:21,875 INFO 18263 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 03:05:21,888 INFO 18263 [egg:core] dump config after load, 7ms
+2022-08-22 03:05:21,899 INFO 18263 [egg-watcher:application] watcher start success
+2022-08-22 03:05:21,900 INFO 18263 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 03:05:21,906 INFO 18263 [egg:core] dump config after ready, 5ms
+2022-08-22 03:05:22,889 INFO 18263 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 03:05:33,460 INFO 18263 [egg-rpc] rpc server is closed
+2022-08-22 03:05:33,207 INFO 18271 [egg:logger] init all loggers with options: {"dir":"/Users/suki/egg-demo/logs/demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 03:05:33,230 INFO 18271 [egg-multipart] stream mode enable
+2022-08-22 03:05:33,326 INFO 18271 [egg-static] starting static serve /public/ -> /Users/suki/egg-demo/app/public
+2022-08-22 03:05:33,328 INFO 18271 [egg-security] use csrf middleware
+2022-08-22 03:05:33,329 INFO 18271 [egg-security] use methodnoallow middleware
+2022-08-22 03:05:33,330 INFO 18271 [egg-security] use noopen middleware
+2022-08-22 03:05:33,331 INFO 18271 [egg-security] use nosniff middleware
+2022-08-22 03:05:33,332 INFO 18271 [egg-security] use xssProtection middleware
+2022-08-22 03:05:33,332 INFO 18271 [egg-security] use xframe middleware
+2022-08-22 03:05:33,333 INFO 18271 [egg-security] use dta middleware
+2022-08-22 03:05:33,333 INFO 18271 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 03:05:33,341 INFO 18271 [egg:core] dump config after load, 5ms
+2022-08-22 03:05:33,350 INFO 18271 [egg-watcher:application] watcher start success
+2022-08-22 03:05:33,350 INFO 18271 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 03:05:33,356 INFO 18271 [egg:core] dump config after ready, 4ms
+2022-08-22 03:05:34,422 INFO 18271 [egg-view-nunjucks] loading templates from ["/Users/suki/egg-demo/app/view"]
+2022-08-22 03:25:47,190 WARN 18271 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-22 05:21:13,590 WARN 18271 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-22 05:21:13,592 WARN 18271 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-22 09:21:34,659 WARN 18271 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-22 09:21:34,666 WARN 18271 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-22 10:49:08,076 WARN 18271 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-08-22 11:56:41,128 INFO 18271 [-/127.0.0.1/-/14ms SCHEDULE /__schedule?path=/Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/0g/z4j8gz1s3cq6c53yp66czh1w0000gn/T/egg-multipart-tmp/demo"
+2022-08-22 11:56:41,159 INFO 18271 [-/127.0.0.1/-/47ms SCHEDULE /__schedule?path=/Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end

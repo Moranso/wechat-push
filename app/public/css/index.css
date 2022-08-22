@@ -1,0 +1,63 @@
+.weather {
+  line-height: 56px;
+  font-size: 24px;
+  padding: 12px;
+  width: 70%;
+}
+label {
+  color: #52616f;
+}
+.date {
+  color: #47cedf;
+}
+.hei-weather {
+  color: #fda8a8;
+}
+.sd {
+  color: #667eea;
+}
+.kqzl {
+  color: #fdcbb3;
+}
+.zdwd {
+  color: #ff758e;
+}
+.day {
+  color: pink;
+}
+.birthday {
+  color: #99b86e;
+}
+
+.loveWord {
+  margin-top: 20px;
+  /* color: #a1c4fd; */
+  /* color: #c6d1e3; */
+  /* color: #56a8a7; */
+  /* color: #f4bebd; */
+  color: #fbb4bd;
+}
+
+.xingzuo {
+  margin-top: 30px;
+}
+
+.xingzuo .title1 {
+  color: #ffbca9;
+}
+
+.xingzuo .luckycolor {
+  color: #ee6561;
+}
+
+.xingzuo .luckynumber {
+  color: #a1c4fd;
+}
+
+.xingzuo .shortcomment {
+  color: #99b86e;
+}
+
+.xingzuo .fortunetext {
+  color: #8bace8;
+}

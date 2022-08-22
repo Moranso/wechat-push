@@ -1,0 +1,102 @@
+2022-08-22 00:36:44,303 ERROR 15516 [-/::1/c0a865041661099803697100015516/606ms GET /] nodejs.ReferenceError: newsList is not defined
+    at HomeController.home (/Users/suki/egg-demo/app/controller/home.js:11:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/suki/egg-demo/node_modules/koa-static-cache/index.js:41:56
+
+pid: 15516
+hostname: QAQ.local
+
+2022-08-22 01:03:49,511 ERROR 16066 [-/::1/c0a865041661101428900100016066/610ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'data')
+    at NewsService.getWeather (/Users/suki/egg-demo/app/service/news.js:31:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.home (/Users/suki/egg-demo/app/controller/home.js:9:21)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 16066
+hostname: QAQ.local
+
+2022-08-22 02:06:32,213 WARN 17196 [-/::1/c0a865041661105192012100017196/200ms GET /] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"), GET https://api.ghser.com/qinghua 301 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.ghser.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx","date":"Sun, 21 Aug 2022 18:06:32 GMT","content-type":"text/html","content-length":"162","location":"https://api.ghser.com/qinghua/","connection":"keep-alive","strict-transport-security":"max-age=31536000"}
+headers: {"server":"nginx","date":"Sun, 21 Aug 2022 18:06:32 GMT","content-type":"text/html","content-length":"162","location":"https://api.ghser.com/qinghua/","connection":"keep-alive","strict-transport-security":"max-age=31536000"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "JSONResponseFormatError"
+data: "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+path: "/qinghua"
+status: 301
+headers: {"server":"nginx","date":"Sun, 21 Aug 2022 18:06:32 GMT","content-type":"text/html","content-length":"162","location":"https://api.ghser.com/qinghua/","connection":"keep-alive","strict-transport-security":"max-age=31536000"}
+res: {"status":301,"statusCode":301,"statusMessage":"Moved Permanently","headers":{"server":"nginx","date":"Sun, 21 Aug 2022 18:06:32 GMT","content-type":"text/html","content-length":"162","location":"https://api.ghser.com/qinghua/","connection":"keep-alive","strict-transport-security":"max-age=31536000"},"size":162,"aborted":false,"rt":188,"keepAliveSocket":false,"data":"<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n","requestUrls":["https://api.ghser.com/qinghua"],"timing":null,"remoteAddress":"39.108.61.150","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 17196
+hostname: QAQ.local
+
+2022-08-22 02:11:24,323 WARN 17308 [-/127.0.0.1/c0a865041661105484055100017308/267ms GET /] nodejs.JSONResponseFormatError: Unexpected token 抱 in JSON at position 0 (data json format: "抱住了你，我就拥有了整个世界。"), GET https://api.vvhan.com/api/love 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.vvhan.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"CWAP-waf","date":"Sun, 21 Aug 2022 18:11:24 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000","wzws-ray":"1129-1661134284.417-s1jhg","x-powered-by":"wangzhan.qianxin.com"}
+headers: {"server":"CWAP-waf","date":"Sun, 21 Aug 2022 18:11:24 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000","wzws-ray":"1129-1661134284.417-s1jhg","x-powered-by":"wangzhan.qianxin.com"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:1239:24)
+    at /Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:943:23
+    at decodeContent (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:740:14)
+    at handleResponseCloseAndEnd (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:924:7)
+    at IncomingMessage.<anonymous> (/Users/suki/egg-demo/node_modules/urllib/lib/urllib.js:962:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+name: "JSONResponseFormatError"
+data: "抱住了你，我就拥有了整个世界。"
+path: "/api/love"
+status: 200
+headers: {"server":"CWAP-waf","date":"Sun, 21 Aug 2022 18:11:24 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000","wzws-ray":"1129-1661134284.417-s1jhg","x-powered-by":"wangzhan.qianxin.com"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"server":"CWAP-waf","date":"Sun, 21 Aug 2022 18:11:24 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000","wzws-ray":"1129-1661134284.417-s1jhg","x-powered-by":"wangzhan.qianxin.com"},"size":45,"aborted":false,"rt":249,"keepAliveSocket":false,"data":"抱住了你，我就拥有了整个世界。","requestUrls":["https://api.vvhan.com/api/love"],"timing":null,"remoteAddress":"36.27.212.51","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 17308
+hostname: QAQ.local
+
+2022-08-22 03:05:07,153 ERROR 18256 [-/127.0.0.1/c0a865041661108706187100018256/965ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at NewsService.getWeather (/Users/suki/egg-demo/app/service/home.js:33:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.home (/Users/suki/egg-demo/app/controller/home.js:9:18)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 18256
+hostname: QAQ.local
+
+2022-08-22 03:05:09,703 ERROR 18256 [-/127.0.0.1/c0a865041661108709292100218256/411ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at NewsService.getWeather (/Users/suki/egg-demo/app/service/home.js:33:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.home (/Users/suki/egg-demo/app/controller/home.js:9:18)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 18256
+hostname: QAQ.local
+

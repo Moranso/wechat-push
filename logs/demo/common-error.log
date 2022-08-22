@@ -1,0 +1,92 @@
+2022-08-22 00:36:44,303 ERROR 15516 [-/::1/c0a865041661099803697100015516/606ms GET /] nodejs.ReferenceError: newsList is not defined
+    at HomeController.home (/Users/suki/egg-demo/app/controller/home.js:11:47)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/suki/egg-demo/node_modules/koa-static-cache/index.js:41:56
+
+pid: 15516
+hostname: QAQ.local
+
+2022-08-22 01:03:49,511 ERROR 16066 [-/::1/c0a865041661101428900100016066/610ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'data')
+    at NewsService.getWeather (/Users/suki/egg-demo/app/service/news.js:31:33)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.home (/Users/suki/egg-demo/app/controller/home.js:9:21)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 16066
+hostname: QAQ.local
+
+2022-08-22 03:05:07,152 ERROR 18256 [-/127.0.0.1/c0a865041661108706187100018256/965ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at NewsService.getWeather (/Users/suki/egg-demo/app/service/home.js:33:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.home (/Users/suki/egg-demo/app/controller/home.js:9:18)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 18256
+hostname: QAQ.local
+
+2022-08-22 03:05:09,703 ERROR 18256 [-/127.0.0.1/c0a865041661108709292100218256/411ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at NewsService.getWeather (/Users/suki/egg-demo/app/service/home.js:33:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.home (/Users/suki/egg-demo/app/controller/home.js:9:18)
+    at async /Users/suki/egg-demo/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/suki/egg-demo/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/suki/egg-demo/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/suki/egg-demo/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 18256
+hostname: QAQ.local
+
+2022-08-22 03:25:47,192 ERROR 17260 nodejs.ClusterClientNoResponseError: client no response in 293768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/suki/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17260
+hostname: QAQ.local
+
+2022-08-22 05:21:13,566 ERROR 17260 nodejs.ClusterClientNoResponseError: client no response in 6906322ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/suki/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17260
+hostname: QAQ.local
+
+2022-08-22 09:21:34,669 ERROR 17260 nodejs.ClusterClientNoResponseError: client no response in 14420940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/suki/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17260
+hostname: QAQ.local
+
+2022-08-22 10:49:08,076 ERROR 17260 nodejs.ClusterClientNoResponseError: client no response in 5253374ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/suki/egg-demo/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17260
+hostname: QAQ.local
+
