@@ -1676,3 +1676,34 @@
 2022-08-22 10:49:08,076 WARN 18271 [ClusterClient:Watcher] follower closed, and try to init it again
 2022-08-22 11:56:41,128 INFO 18271 [-/127.0.0.1/-/14ms SCHEDULE /__schedule?path=/Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/0g/z4j8gz1s3cq6c53yp66czh1w0000gn/T/egg-multipart-tmp/demo"
 2022-08-22 11:56:41,159 INFO 18271 [-/127.0.0.1/-/47ms SCHEDULE /__schedule?path=/Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-08-22 12:31:13,193 INFO 1392 [egg:logger] init all loggers with options: {"dir":"D:\\学习\\wechat-push\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 12:31:13,208 INFO 1392 [egg-multipart] stream mode enable
+2022-08-22 12:31:13,256 INFO 1392 [egg-static] starting static serve /public/ -> D:\学习\wechat-push\app\public
+2022-08-22 12:31:13,257 INFO 1392 [egg-security] use csrf middleware
+2022-08-22 12:31:13,257 INFO 1392 [egg-security] use methodnoallow middleware
+2022-08-22 12:31:13,258 INFO 1392 [egg-security] use noopen middleware
+2022-08-22 12:31:13,258 INFO 1392 [egg-security] use nosniff middleware
+2022-08-22 12:31:13,258 INFO 1392 [egg-security] use xssProtection middleware
+2022-08-22 12:31:13,259 INFO 1392 [egg-security] use xframe middleware
+2022-08-22 12:31:13,259 INFO 1392 [egg-security] use dta middleware
+2022-08-22 12:31:13,259 INFO 1392 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 12:31:13,264 INFO 1392 [egg:core] dump config after load, 3ms
+2022-08-22 12:31:13,272 INFO 1392 [egg-watcher:application] watcher start success
+2022-08-22 12:31:13,272 INFO 1392 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 12:31:13,276 INFO 1392 [egg:core] dump config after ready, 3ms
+2022-08-22 12:31:17,808 INFO 1392 [egg-view-nunjucks] loading templates from ["D:\\学习\\wechat-push\\app\\view"]
+2022-08-22 12:35:45,805 INFO 9316 [egg:logger] init all loggers with options: {"dir":"D:\\学习\\wechat-push\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-22 12:35:45,823 INFO 9316 [egg-multipart] stream mode enable
+2022-08-22 12:35:45,874 INFO 9316 [egg-static] starting static serve /public/ -> D:\学习\wechat-push\app\public
+2022-08-22 12:35:45,875 INFO 9316 [egg-security] use csrf middleware
+2022-08-22 12:35:45,875 INFO 9316 [egg-security] use methodnoallow middleware
+2022-08-22 12:35:45,876 INFO 9316 [egg-security] use noopen middleware
+2022-08-22 12:35:45,876 INFO 9316 [egg-security] use nosniff middleware
+2022-08-22 12:35:45,876 INFO 9316 [egg-security] use xssProtection middleware
+2022-08-22 12:35:45,877 INFO 9316 [egg-security] use xframe middleware
+2022-08-22 12:35:45,877 INFO 9316 [egg-security] use dta middleware
+2022-08-22 12:35:45,877 INFO 9316 [egg-security] compose 7 middlewares into one security middleware
+2022-08-22 12:35:45,882 INFO 9316 [egg:core] dump config after load, 3ms
+2022-08-22 12:35:45,889 INFO 9316 [egg-watcher:application] watcher start success
+2022-08-22 12:35:45,889 INFO 9316 [egg-rpc#server] publish all rpc services after app ready
+2022-08-22 12:35:45,894 INFO 9316 [egg:core] dump config after ready, 4ms

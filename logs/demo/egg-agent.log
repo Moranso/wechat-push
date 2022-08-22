@@ -594,3 +594,18 @@ name: "ClusterClientNoResponseError"
 pid: 17260
 hostname: QAQ.local
 
+2022-08-22 12:31:12,668 INFO 7640 [egg:logger] init all loggers with options: {"dir":"D:\\学习\\wechat-push\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-08-22 12:31:12,673 INFO 7640 [egg:core] dump config after load, 2ms
+2022-08-22 12:31:12,701 INFO 7640 [egg-watcher] Start watching: ["D:\\学习\\wechat-push\\app","D:\\学习\\wechat-push\\config","D:\\学习\\wechat-push\\mocks","D:\\学习\\wechat-push\\mocks_proxy","D:\\学习\\wechat-push\\app.js"]
+2022-08-22 12:31:12,701 INFO 7640 [egg-watcher] Start watching: "D:\\学习\\wechat-push\\app"
+2022-08-22 12:31:12,702 INFO 7640 [egg-watcher] Start watching: "D:\\学习\\wechat-push\\config"
+2022-08-22 12:31:12,702 INFO 7640 [egg-watcher] Start watching: "D:\\学习\\wechat-push\\mocks"
+2022-08-22 12:31:12,702 INFO 7640 [egg-watcher] Start watching: "D:\\学习\\wechat-push\\mocks_proxy"
+2022-08-22 12:31:12,702 INFO 7640 [egg-watcher] Start watching: "D:\\学习\\wechat-push\\app.js"
+2022-08-22 12:31:12,702 INFO 7640 [egg-watcher:agent] watcher start success
+2022-08-22 12:31:12,714 INFO 7640 [egg:core] dump config after ready, 3ms
+2022-08-22 12:35:45,269 WARN 7640 [agent:development] reload worker because D:\学习\wechat-push\app\service\home.js change
+2022-08-22 12:35:45,051 INFO 7640 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\学习\\wechat-push\\app\\service\\home.js","stat":{"dev":518884216,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953439836,"size":1924,"blocks":8,"atimeMs":1661142945042.517,"mtimeMs":1661142945042.517,"ctimeMs":1661142945042.517,"birthtimeMs":1661142239589.041,"atime":"2022-08-22T04:35:45.043Z","mtime":"2022-08-22T04:35:45.043Z","ctime":"2022-08-22T04:35:45.043Z","birthtime":"2022-08-22T04:23:59.589Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-08-22 12:35:45,053 INFO 7640 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\学习\\wechat-push\\app\\service\\home.js","stat":{"dev":518884216,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953439836,"size":1924,"blocks":8,"atimeMs":1661142945042.517,"mtimeMs":1661142945042.517,"ctimeMs":1661142945042.517,"birthtimeMs":1661142239589.041,"atime":"2022-08-22T04:35:45.043Z","mtime":"2022-08-22T04:35:45.043Z","ctime":"2022-08-22T04:35:45.043Z","birthtime":"2022-08-22T04:23:59.589Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-08-22 12:35:45,054 INFO 7640 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\学习\\wechat-push\\app\\service\\home.js","stat":{"dev":518884216,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953439836,"size":1924,"blocks":8,"atimeMs":1661142945042.517,"mtimeMs":1661142945042.517,"ctimeMs":1661142945042.517,"birthtimeMs":1661142239589.041,"atime":"2022-08-22T04:35:45.043Z","mtime":"2022-08-22T04:35:45.043Z","ctime":"2022-08-22T04:35:45.043Z","birthtime":"2022-08-22T04:23:59.589Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-08-22 12:35:45,898 WARN 7640 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer

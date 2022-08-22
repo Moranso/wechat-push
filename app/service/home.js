@@ -19,6 +19,7 @@ class NewsService extends Service {
         areaId: area
       }
     })
+    
     const day = moment(new Date()).diff('2022-05-01', 'day')
     const birthday = moment('2023-03-23').diff(new Date(), 'day')
 

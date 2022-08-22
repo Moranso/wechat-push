@@ -316,3 +316,12 @@
 2022-08-22 11:56:41,066 INFO 17260 [Timer] /Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59598958ms at 2022-08-23 04:30:00.023
 2022-08-22 11:56:41,095 INFO 18271 [Job#166114060102314670657652867531] /Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
 2022-08-22 11:56:41,160 INFO 18271 [Job#166114060102314670657652867531] /Users/suki/egg-demo/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 47ms. 
+2022-08-22 12:31:13,289 INFO 7640 [Timer] D:\学习\wechat-push\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 57526712ms at 2022-08-23 04:30:00.001
+2022-08-22 12:31:13,290 INFO 7640 [Timer] D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 41326711ms at 2022-08-23 00:00:00.001
+2022-08-22 12:31:13,290 INFO 7640 [Timer] D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 41327710ms at 2022-08-23 00:00:01.000
+2022-08-22 12:31:13,208 INFO 1392 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 12:31:13,208 INFO 1392 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 12:31:13,208 INFO 1392 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-22 12:35:45,823 INFO 9316 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-22 12:35:45,823 INFO 9316 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-22 12:35:45,823 INFO 9316 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

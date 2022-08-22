@@ -1,340 +1,340 @@
 {
-  "rpc": "/Users/suki/egg-demo/config/config.default.js",
+  "rpc": "D:\\学习\\wechat-push\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "/Users/suki/egg-demo/config/config.default.js",
+    "defaultViewEngine": "D:\\学习\\wechat-push\\config\\config.default.js",
     "mapping": {
-      ".tpl": "/Users/suki/egg-demo/config/config.default.js"
+      ".tpl": "D:\\学习\\wechat-push\\config\\config.default.js"
     },
-    "root": "/Users/suki/egg-demo/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/suki/egg-demo/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/suki/egg-demo/node_modules/egg-view/config/config.default.js"
+    "root": "D:\\学习\\wechat-push\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\学习\\wechat-push\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\学习\\wechat-push\\node_modules\\egg-view\\config\\config.default.js"
   },
   "news": {
-    "pageSize": "/Users/suki/egg-demo/config/config.default.js",
-    "serverUrl": "/Users/suki/egg-demo/config/config.default.js"
+    "pageSize": "D:\\学习\\wechat-push\\config\\config.default.js",
+    "serverUrl": "D:\\学习\\wechat-push\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "/Users/suki/egg-demo/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/suki/egg-demo/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/suki/egg-demo/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/suki/egg-demo/node_modules/egg-session/config/config.default.js",
-    "logValue": "/Users/suki/egg-demo/node_modules/egg-session/config/config.default.js"
+    "maxAge": "D:\\学习\\wechat-push\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\学习\\wechat-push\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\学习\\wechat-push\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\学习\\wechat-push\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\学习\\wechat-push\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "type": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "supportedRequests": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "supportedRequests": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "ipExceptionList": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/suki/egg-demo/node_modules/egg-security/config/config.default.js"
+    "shtml": "D:\\学习\\wechat-push\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/suki/egg-demo/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/suki/egg-demo/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/suki/egg-demo/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "D:\\学习\\wechat-push\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\学习\\wechat-push\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\学习\\wechat-push\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/suki/egg-demo/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/suki/egg-demo/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/suki/egg-demo/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "D:\\学习\\wechat-push\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\学习\\wechat-push\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\学习\\wechat-push\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/suki/egg-demo/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/suki/egg-demo/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/suki/egg-demo/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/suki/egg-demo/node_modules/egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/suki/egg-demo/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/suki/egg-demo/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "D:\\学习\\wechat-push\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\学习\\wechat-push\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\学习\\wechat-push\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\学习\\wechat-push\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\学习\\wechat-push\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\学习\\wechat-push\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "/Users/suki/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "type": "D:\\学习\\wechat-push\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "/Users/suki/egg-demo/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/suki/egg-demo/node_modules/egg-watcher/config/config.default.js"
+      "default": "D:\\学习\\wechat-push\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\学习\\wechat-push\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/suki/egg-demo/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/suki/egg-demo/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "D:\\学习\\wechat-push\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\学习\\wechat-push\\node_modules\\egg-schedule\\config\\config.default.js"
     },
     "opentracingLogger": {
-      "file": "/Users/suki/egg-demo/node_modules/egg-opentracing/config/config.default.js",
-      "consoleLevel": "/Users/suki/egg-demo/node_modules/egg-opentracing/config/config.default.js"
+      "file": "D:\\学习\\wechat-push\\node_modules\\egg-opentracing\\config\\config.default.js",
+      "consoleLevel": "D:\\学习\\wechat-push\\node_modules\\egg-opentracing\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/suki/egg-demo/node_modules/egg-schedule/config/config.default.js"
+    "directory": "D:\\学习\\wechat-push\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "allowArrayField": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "mode": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js",
-      "disable": "/Users/suki/egg-demo/node_modules/egg-multipart/config/config.default.js"
+      "cron": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\学习\\wechat-push\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/suki/egg-demo/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/suki/egg-demo/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/suki/egg-demo/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/suki/egg-demo/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/suki/egg-demo/node_modules/egg-development/config/config.default.js",
-    "overrideIgnore": "/Users/suki/egg-demo/node_modules/egg-development/config/config.default.js"
+    "watchDirs": "D:\\学习\\wechat-push\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\学习\\wechat-push\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\学习\\wechat-push\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\学习\\wechat-push\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\学习\\wechat-push\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\学习\\wechat-push\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/suki/egg-demo/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\学习\\wechat-push\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "/Users/suki/egg-demo/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/suki/egg-demo/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/suki/egg-demo/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/suki/egg-demo/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/suki/egg-demo/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/suki/egg-demo/node_modules/egg-static/config/config.default.js"
+    "prefix": "D:\\学习\\wechat-push\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\学习\\wechat-push\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\学习\\wechat-push\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\学习\\wechat-push\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\学习\\wechat-push\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\学习\\wechat-push\\node_modules\\egg-static\\config\\config.default.js"
   },
   "opentracing": {
-    "globalTracer": "/Users/suki/egg-demo/node_modules/egg-opentracing/config/config.default.js",
+    "globalTracer": "D:\\学习\\wechat-push\\node_modules\\egg-opentracing\\config\\config.default.js",
     "carrier": {
-      "HTTP": "/Users/suki/egg-demo/node_modules/egg-opentracing/config/config.default.js",
-      "RPC": "/Users/suki/egg-demo/node_modules/egg-dubbo-tracer/config/config.default.js"
+      "HTTP": "D:\\学习\\wechat-push\\node_modules\\egg-opentracing\\config\\config.default.js",
+      "RPC": "D:\\学习\\wechat-push\\node_modules\\egg-dubbo-tracer\\config\\config.default.js"
     },
     "collector": {
-      "log": "/Users/suki/egg-demo/node_modules/egg-opentracing/config/config.default.js"
+      "log": "D:\\学习\\wechat-push\\node_modules\\egg-opentracing\\config\\config.default.js"
     }
   },
-  "dubboTracer": "/Users/suki/egg-demo/node_modules/egg-dubbo-tracer/config/config.default.js",
+  "dubboTracer": "D:\\学习\\wechat-push\\node_modules\\egg-dubbo-tracer\\config\\config.default.js",
   "healthy": {
-    "readinessPath": "/Users/suki/egg-demo/node_modules/egg-healthy/config/config.default.js",
-    "livenessPath": "/Users/suki/egg-demo/node_modules/egg-healthy/config/config.default.js"
+    "readinessPath": "D:\\学习\\wechat-push\\node_modules\\egg-healthy\\config\\config.default.js",
+    "livenessPath": "D:\\学习\\wechat-push\\node_modules\\egg-healthy\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "/Users/suki/egg-demo/node_modules/egg-view-nunjucks/config/config.default.js",
-    "throwOnUndefined": "/Users/suki/egg-demo/node_modules/egg-view-nunjucks/config/config.default.js",
-    "trimBlocks": "/Users/suki/egg-demo/node_modules/egg-view-nunjucks/config/config.default.js",
-    "lstripBlocks": "/Users/suki/egg-demo/node_modules/egg-view-nunjucks/config/config.default.js",
-    "cache": "/Users/suki/egg-demo/node_modules/egg-view-nunjucks/config/config.local.js"
+    "autoescape": "D:\\学习\\wechat-push\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\学习\\wechat-push\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\学习\\wechat-push\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\学习\\wechat-push\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\学习\\wechat-push\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "name": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "keys": "/Users/suki/egg-demo/node_modules/egg-cloud/config/config.default.js",
-  "cookies": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "maxIpsCount": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "maxProxyCount": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+  "env": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "keys": "D:\\学习\\wechat-push\\node_modules\\egg-cloud\\config\\config.default.js",
+  "cookies": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "version": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "description": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "private": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+    "name": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
     "egg": {
-      "framework": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "framework": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "stop": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "dev": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "debug": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "test": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "cov": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "lint": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "ci": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "rpc": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "init": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "autod": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "start": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "rpc": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "init": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "egg-cloud": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "moment": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "egg-cloud": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "egg-rpc-generator": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "webstorm-disable-index": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "autod": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "egg-rpc-generator": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "node": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "version": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "url": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "type": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
-    "eslintIgnore": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "author": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "license": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "eslintIgnore": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+  "baseDir": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "ignore": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "bodyparser": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "pageUrl": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "cacheControl": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "textLimit": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "strict": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+    "enable": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "depth": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "arrayLimit": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "onerror": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "env": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "level": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+    "dir": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/suki/egg-demo/node_modules/egg/config/config.local.js"
+      "consoleLevel": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "enablePerformanceTimer": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "timeout": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "keepAlive": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "keepAlive": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "logging": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "enable": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "port": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+      "path": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "/Users/suki/egg-demo/node_modules/egg/config/config.default.js"
+  "onClientError": "D:\\学习\\wechat-push\\node_modules\\egg\\config\\config.default.js"
 }
