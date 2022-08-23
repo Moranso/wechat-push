@@ -90,3 +90,51 @@ name: "ClusterClientNoResponseError"
 pid: 17260
 hostname: QAQ.local
 
+2022-08-23 14:11:02,708 ERROR 14676 [-/127.0.0.1/c0a801021661235062284100014676/423ms GET /send] nodejs.TypeError: this.toWechart is not a function
+    at SengMsgService.sendOut (D:\学习\wechat-push\app\service\sendMsg.js:20:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SendMsgController.send (D:\学习\wechat-push\app\controller\sendMsg.js:9:18)
+    at async D:\学习\wechat-push\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\学习\wechat-push\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\学习\wechat-push\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\学习\wechat-push\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\学习\wechat-push\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\学习\wechat-push\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\学习\wechat-push\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 14676
+hostname: 海阔
+
+2022-08-23 14:43:06,422 ERROR 5016 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5016
+hostname: 海阔
+
+2022-08-23 15:12:32,532 ERROR 5016 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5016
+hostname: 海阔
+
+2022-08-23 16:24:10,241 ERROR 5016 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5016
+hostname: 海阔
+
+2022-08-23 16:33:33,382 ERROR 6272 [Job#16612436115851390844891150010] D:\学习\wechat-push\app\schedule\sendMsg.js execute failed, used 1795ms. ReferenceError: ctx is not defined
+    at UpdateCache.subscribe (D:\学习\wechat-push\app\schedule\sendMsg.js:20:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-08-23 16:33:35,734 ERROR 6272 [Job#16612436145961391145940590011] D:\学习\wechat-push\app\schedule\sendMsg.js execute failed, used 1138ms. ReferenceError: ctx is not defined
+    at UpdateCache.subscribe (D:\学习\wechat-push\app\schedule\sendMsg.js:20:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

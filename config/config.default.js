@@ -15,7 +15,10 @@ exports.view = {
   }
 }
 
-exports.news = {
-  pageSize: 5,
-  serverUrl: 'https://hacker-news.firebaseio.com/v0'
+exports.wechat = {
+  appId: 'wx115214cb8ef2e22e',
+  secret: 'cb1e23213d788546963936e18475a49f'
 }
+
+
+

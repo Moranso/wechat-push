@@ -9,9 +9,9 @@
     "cache": "D:\\学习\\wechat-push\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "D:\\学习\\wechat-push\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "news": {
-    "pageSize": "D:\\学习\\wechat-push\\config\\config.default.js",
-    "serverUrl": "D:\\学习\\wechat-push\\config\\config.default.js"
+  "wechat": {
+    "appId": "D:\\学习\\wechat-push\\config\\config.default.js",
+    "secret": "D:\\学习\\wechat-push\\config\\config.default.js"
   },
   "session": {
     "maxAge": "D:\\学习\\wechat-push\\node_modules\\egg-session\\config\\config.default.js",

@@ -464,9 +464,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    "wechat": {
+      "appId": "wx115214cb8ef2e22e",
+      "secret": "<String len: 32>"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
