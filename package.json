@@ -9,7 +9,6 @@
   "scripts": {
     "start": "egg-scripts start --daemon",
     "stop": "egg-scripts stop",
-   
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
@@ -23,7 +22,7 @@
   },
   "dependencies": {
     "egg-cloud": "^0.2.0",
-    "egg-scripts": "^2.10.0",
+    "egg-scripts": "^2.17.0",
     "egg-view-nunjucks": "^2.3.0",
     "moment": "^2.29.4"
   },
