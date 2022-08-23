@@ -4363,3 +4363,18 @@
 2022-08-23 16:38:47,607 INFO 6040 [egg-watcher:application] watcher start success
 2022-08-23 16:38:47,607 INFO 6040 [egg-rpc#server] publish all rpc services after app ready
 2022-08-23 16:38:47,612 INFO 6040 [egg:core] dump config after ready, 4ms
+2022-08-23 17:43:51,320 INFO 17628 [egg:logger] init all loggers with options: {"dir":"D:\\学习\\wechat-push\\logs\\demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-08-23 17:43:51,337 INFO 17628 [egg-multipart] stream mode enable
+2022-08-23 17:43:51,392 INFO 17628 [egg-static] starting static serve /public/ -> D:\学习\wechat-push\app\public
+2022-08-23 17:43:51,395 INFO 17628 [egg-security] use csrf middleware
+2022-08-23 17:43:51,395 INFO 17628 [egg-security] use methodnoallow middleware
+2022-08-23 17:43:51,395 INFO 17628 [egg-security] use noopen middleware
+2022-08-23 17:43:51,396 INFO 17628 [egg-security] use nosniff middleware
+2022-08-23 17:43:51,396 INFO 17628 [egg-security] use xssProtection middleware
+2022-08-23 17:43:51,397 INFO 17628 [egg-security] use xframe middleware
+2022-08-23 17:43:51,397 INFO 17628 [egg-security] use dta middleware
+2022-08-23 17:43:51,397 INFO 17628 [egg-security] compose 7 middlewares into one security middleware
+2022-08-23 17:43:51,403 INFO 17628 [egg:core] dump config after load, 4ms
+2022-08-23 17:43:51,410 INFO 17628 [egg-watcher:application] watcher start success
+2022-08-23 17:43:51,411 INFO 17628 [egg-rpc#server] publish all rpc services after app ready
+2022-08-23 17:43:51,416 INFO 17628 [egg:core] dump config after ready, 4ms

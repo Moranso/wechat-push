@@ -962,3 +962,7 @@
 2022-08-23 16:38:47,539 INFO 6040 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\clean_log.js
 2022-08-23 16:38:47,539 INFO 6040 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
 2022-08-23 16:38:47,539 INFO 6040 [egg-schedule]: register schedule D:\学习\wechat-push\app\schedule\sendMsg.js
+2022-08-23 17:43:51,337 INFO 17628 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-08-23 17:43:51,337 INFO 17628 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-08-23 17:43:51,337 INFO 17628 [egg-schedule]: register schedule D:\学习\wechat-push\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-08-23 17:43:51,337 INFO 17628 [egg-schedule]: register schedule D:\学习\wechat-push\app\schedule\sendMsg.js

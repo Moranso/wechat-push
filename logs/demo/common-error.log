@@ -138,3 +138,12 @@ hostname: 海阔
 2022-08-23 16:33:35,734 ERROR 6272 [Job#16612436145961391145940590011] D:\学习\wechat-push\app\schedule\sendMsg.js execute failed, used 1138ms. ReferenceError: ctx is not defined
     at UpdateCache.subscribe (D:\学习\wechat-push\app\schedule\sendMsg.js:20:5)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-08-23 17:43:51,224 ERROR 16212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16212
+hostname: 海阔
+
