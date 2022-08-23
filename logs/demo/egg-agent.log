@@ -1700,3 +1700,4 @@ pid: 16212
 hostname: 海阔
 
 2022-08-23 17:43:51,231 WARN 16212 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-08-23 17:52:04,618 INFO 16212 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\学习\\wechat-push\\app\\view\\news\\index.tpl","stat":{"dev":518884216,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949953439839,"size":1712,"blocks":8,"atimeMs":1661248324617.8145,"mtimeMs":1661239361544.7007,"ctimeMs":1661239361544.7007,"birthtimeMs":1661142239589.041,"atime":"2022-08-23T09:52:04.618Z","mtime":"2022-08-23T07:22:41.545Z","ctime":"2022-08-23T07:22:41.545Z","birthtime":"2022-08-22T04:23:59.589Z"},"remove":false,"isDirectory":false,"isFile":true}
